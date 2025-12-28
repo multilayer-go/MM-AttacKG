@@ -1,0 +1,319 @@
+[
+    {
+        "triplets": [
+            {
+                "Subject": "Cisco Talos",
+                "SubjectType": "CTI vender",
+                "Description_of_Subject": "Artifacts, such as the malicious RTF document and Excel spreadsheet, used in the campaign.",
+                "Relation": "observe",
+                "RelationType": "action",
+                "Description_of_Relation": "Specifies the act of utilizing known security weaknesses in software to carry out an attack.",
+                "Object": "malicious campaign",
+                "ObjectType": "campaign",
+                "Description_of_Object": "Vulnerabilities present in certain applications which are exploited by the embedded objects within the artifacts.",
+                "tactic": "Initial Access",
+                "technique": [
+                    "T1566-Phishing"
+                ],
+                "SentenceNums": [
+                    0
+                ]
+            },
+            {
+                "Subject": "malicious campaign",
+                "SubjectType": "campaign",
+                "Description_of_Subject": "Artifacts, such as the malicious RTF document and Excel spreadsheet, used in the campaign.",
+                "Relation": "originate-from",
+                "RelationType": "other",
+                "Description_of_Relation": "Specifies the act of utilizing known security weaknesses in software to carry out an attack.",
+                "Object": "Bitter APT group",
+                "ObjectType": "threat-actor",
+                "Description_of_Object": "Vulnerabilities present in certain applications which are exploited by the embedded objects within the artifacts.",
+                "tactic": "Initial Access",
+                "technique": [
+                    "T1566-Phishing"
+                ],
+                "SentenceNums": [
+                    0
+                ]
+            },
+            {
+                "Subject": "malicious campaign",
+                "SubjectType": "campaign",
+                "Description_of_Subject": "Artifacts, such as the malicious RTF document and Excel spreadsheet, used in the campaign.",
+                "Relation": "target",
+                "RelationType": "action",
+                "Description_of_Relation": "Specifies the act of utilizing known security weaknesses in software to carry out an attack.",
+                "Object": "users in Bangladesh",
+                "ObjectType": "identity",
+                "Description_of_Object": "Vulnerabilities present in certain applications which are exploited by the embedded objects within the artifacts.",
+                "tactic": "Initial Access",
+                "technique": [
+                    "T1566-Phishing"
+                ],
+                "SentenceNums": [
+                    0
+                ]
+            },
+            {
+                "Subject": "malicious campaign",
+                "SubjectType": "campaign",
+                "Description_of_Subject": "Artifacts, such as the malicious RTF document and Excel spreadsheet, used in the campaign.",
+                "Relation": "target",
+                "RelationType": "action",
+                "Description_of_Relation": "Specifies the act of utilizing known security weaknesses in software to carry out an attack.",
+                "Object": "elite unit of Bangladesh's government",
+                "ObjectType": "identity",
+                "Description_of_Object": "Vulnerabilities present in certain applications which are exploited by the embedded objects within the artifacts.",
+                "tactic": "Initial Access",
+                "technique": [
+                    "T1566-Phishing"
+                ],
+                "SentenceNums": [
+                    1
+                ]
+            },
+            {
+                "Subject": "malicious campaign",
+                "SubjectType": "campaign",
+                "Description_of_Subject": "Artifacts, such as the malicious RTF document and Excel spreadsheet, used in the campaign.",
+                "Relation": "include",
+                "RelationType": "action",
+                "Description_of_Relation": "Specifies the act of utilizing known security weaknesses in software to carry out an attack.",
+                "Object": "themed lure document",
+                "ObjectType": "artifacts",
+                "Description_of_Object": "Vulnerabilities present in certain applications which are exploited by the embedded objects within the artifacts.",
+                "tactic": "Initial Access",
+                "technique": [
+                    "T1566-Phishing"
+                ],
+                "SentenceNums": [
+                    1
+                ]
+            },
+            {
+                "Subject": "lure document",
+                "SubjectType": "artifacts",
+                "Description_of_Subject": "Artifacts, such as the malicious RTF document and Excel spreadsheet, used in the campaign.",
+                "Relation": "send",
+                "RelationType": "action",
+                "Description_of_Relation": "Specifies the act of utilizing known security weaknesses in software to carry out an attack.",
+                "Object": "high-ranking officers of Rapid Action Battalion Unit of Bangladesh police",
+                "ObjectType": "identity",
+                "Description_of_Object": "Vulnerabilities present in certain applications which are exploited by the embedded objects within the artifacts.",
+                "tactic": "Initial Access",
+                "technique": [
+                    "T1566-Phishing"
+                ],
+                "SentenceNums": [
+                    2
+                ]
+            },
+            {
+                "Subject": "emails",
+                "SubjectType": "Email Message",
+                "Description_of_Subject": "Artifacts, such as the malicious RTF document and Excel spreadsheet, used in the campaign.",
+                "Relation": "contain",
+                "RelationType": "action",
+                "Description_of_Relation": "Specifies the act of utilizing known security weaknesses in software to carry out an attack.",
+                "Object": "malicious RTF document or Microsoft Excel spreadsheet",
+                "ObjectType": "artifacts",
+                "Description_of_Object": "Vulnerabilities present in certain applications which are exploited by the embedded objects within the artifacts.",
+                "tactic": "Initial Access",
+                "technique": [
+                    "T1566-Phishing",
+                    "T1190-Exploit Public-Facing Application"
+                ],
+                "SentenceNums": [
+                    3
+                ]
+            },
+            {
+                "Subject": "artifacts",
+                "SubjectType": "artifacts",
+                "Description_of_Subject": "Artifacts, such as the malicious RTF document and Excel spreadsheet, used in the campaign.",
+                "Relation": "exploit",
+                "RelationType": "other",
+                "Description_of_Relation": "Specifies the act of utilizing known security weaknesses in software to carry out an attack.",
+                "Object": "CVE-2017-11882, CVE-2018-0798, CVE-2018-0802",
+                "ObjectType": "vulnerability",
+                "Description_of_Object": "Vulnerabilities present in certain applications which are exploited by the embedded objects within the artifacts.",
+                "tactic": "Initial Access",
+                "technique": [
+                    "T1566-Phishing",
+                    "T1190-Exploit Public-Facing Application"
+                ],
+                "SentenceNums": [
+                    4
+                ]
+            },
+            {
+                "Subject": "actor's infrastructure",
+                "SubjectType": "infrastructure",
+                "Description_of_Subject": "The artifact delivered by the attacker to be run on the victim's machine",
+                "Relation": "consist-of",
+                "RelationType": "other",
+                "Description_of_Relation": "Refers to the action of running downloaded or pre-configured files, which allows the threat actor to execute specific operations",
+                "Object": "C2 server",
+                "ObjectType": "infrastructure",
+                "Description_of_Object": "Refers to the programs or scripts that are executed on a victim's system as part of the malicious operation",
+                "tactic": "Command and Control",
+                "technique": [
+                    "T1105-Ingress Tool Transfer"
+                ],
+                "SentenceNums": [
+                    0
+                ]
+            },
+            {
+                "Subject": "C2 domain",
+                "SubjectType": "domain-name",
+                "Description_of_Subject": "The artifact delivered by the attacker to be run on the victim's machine",
+                "Relation": "resolve-to",
+                "RelationType": "other",
+                "Description_of_Relation": "Refers to the action of running downloaded or pre-configured files, which allows the threat actor to execute specific operations",
+                "Object": "99[.]83[.]154[.]118",
+                "ObjectType": "ipv4-addr",
+                "Description_of_Object": "Refers to the programs or scripts that are executed on a victim's system as part of the malicious operation",
+                "tactic": "Command and Control",
+                "technique": [
+                    "Others"
+                ],
+                "SentenceNums": [
+                    2
+                ]
+            },
+            {
+                "Subject": "actor",
+                "SubjectType": "threat-actor",
+                "Description_of_Subject": "The artifact delivered by the attacker to be run on the victim's machine",
+                "Relation": "use",
+                "RelationType": "action",
+                "Description_of_Relation": "Refers to the action of running downloaded or pre-configured files, which allows the threat actor to execute specific operations",
+                "Object": "AWS Global Accelerator",
+                "ObjectType": "infrastructure",
+                "Description_of_Object": "Refers to the programs or scripts that are executed on a victim's system as part of the malicious operation",
+                "tactic": "Command and Control",
+                "technique": [
+                    "Others"
+                ],
+                "SentenceNums": [
+                    5
+                ]
+            },
+            {
+                "Subject": "actor",
+                "SubjectType": "threat-actor",
+                "Description_of_Subject": "The artifact delivered by the attacker to be run on the victim's machine",
+                "Relation": "conceal",
+                "RelationType": "other",
+                "Description_of_Relation": "Refers to the action of running downloaded or pre-configured files, which allows the threat actor to execute specific operations",
+                "Object": "identity",
+                "ObjectType": "identity",
+                "Description_of_Object": "Refers to the programs or scripts that are executed on a victim's system as part of the malicious operation",
+                "tactic": "Command and Control",
+                "technique": [
+                    "T1090-Proxy"
+                ],
+                "SentenceNums": [
+                    6
+                ]
+            },
+            {
+                "Subject": "payload",
+                "SubjectType": "artifacts",
+                "Description_of_Subject": "The artifact delivered by the attacker to be run on the victim's machine",
+                "Relation": "run",
+                "RelationType": "action",
+                "Description_of_Relation": "Refers to the action of running downloaded or pre-configured files, which allows the threat actor to execute specific operations",
+                "Object": "Windows security update service",
+                "ObjectType": "software",
+                "Description_of_Object": "Refers to the programs or scripts that are executed on a victim's system as part of the malicious operation",
+                "tactic": "Command and Control",
+                "technique": [
+                    "T1090-Proxy"
+                ],
+                "SentenceNums": [
+                    7
+                ]
+            },
+            {
+                "Subject": "payload",
+                "SubjectType": "artifacts",
+                "Description_of_Subject": "The artifact delivered by the attacker to be run on the victim's machine",
+                "Relation": "communicate-with",
+                "RelationType": "other",
+                "Description_of_Relation": "Refers to the action of running downloaded or pre-configured files, which allows the threat actor to execute specific operations",
+                "Object": "C2",
+                "ObjectType": "infrastructure",
+                "Description_of_Object": "Refers to the programs or scripts that are executed on a victim's system as part of the malicious operation",
+                "tactic": "Command and Control",
+                "technique": [
+                    "T1090-Proxy",
+                    "T1105-Ingress Tool Transfer",
+                    "T1219-Remote Access Software"
+                ],
+                "SentenceNums": [
+                    7
+                ]
+            },
+            {
+                "Subject": "payload",
+                "SubjectType": "artifacts",
+                "Description_of_Subject": "The artifact delivered by the attacker to be run on the victim's machine",
+                "Relation": "download",
+                "RelationType": "other",
+                "Description_of_Relation": "Refers to the action of running downloaded or pre-configured files, which allows the threat actor to execute specific operations",
+                "Object": "files",
+                "ObjectType": "artifacts",
+                "Description_of_Object": "Refers to the programs or scripts that are executed on a victim's system as part of the malicious operation",
+                "tactic": "Command and Control",
+                "technique": [
+                    "T1090-Proxy",
+                    "T1105-Ingress Tool Transfer"
+                ],
+                "SentenceNums": [
+                    7
+                ]
+            },
+            {
+                "Subject": "payload",
+                "SubjectType": "artifacts",
+                "Description_of_Subject": "The artifact delivered by the attacker to be run on the victim's machine",
+                "Relation": "execute",
+                "RelationType": "action",
+                "Description_of_Relation": "Refers to the action of running downloaded or pre-configured files, which allows the threat actor to execute specific operations",
+                "Object": "files",
+                "ObjectType": "artifacts",
+                "Description_of_Object": "Refers to the programs or scripts that are executed on a victim's system as part of the malicious operation",
+                "tactic": "Command and Control",
+                "technique": [
+                    "T1090-Proxy"
+                ],
+                "SentenceNums": [
+                    7
+                ]
+            }
+        ],
+        "file_name": "Cisco Talos Intelligence Group - Comprehensive Threat Intelligence_ Bitter APT adds Bangladesh to their targets",
+        "tactic_label": true,
+        "rewrite": {
+            "Reconnaissance": "None",
+            "Resource Development": "None",
+            "Initial Access": "Cisco Talos has observed an ongoing malicious campaign since August 2021 from the Bitter APT group that appears to target users in Bangladesh. The campaign targets an elite unit of the Bangladesh's government with a themed lure document alleging to relate to the regular operational tasks in the victim's organization. The lure document is a spear-phishing email sent to high-ranking officers of the Rapid Action Battalion Unit of the Bangladesh police (RAB). The emails contain either a malicious RTF document or a Microsoft Excel spreadsheet weaponized to exploit known vulnerabilities. Once the victim opens the maldoc, the Equation Editor application is automatically launched to run the embedded objects containing the shellcode to exploit known vulnerabilities described by CVE-2017-11882, CVE-2018-0798 and CVE-2018-0802 \n\n",
+            "Execution": "None",
+            "Persistence": "None",
+            "Privilege Escalation": "None",
+            "Defense Evasion": "None",
+            "Credential Access": "None",
+            "Discovery": "None",
+            "Lateral Movement": "None",
+            "Collection": "None",
+            "Command and Control": "The actor's infrastructure consists of the C2 server (helpdesk[.]autodefragapp[.]com) and several domains that host the adversary's malware. The C2 domain resolved to 99[.]83[.]154[.]118 during the period of the campaign. This is a legitimate IP address for the AWS Global Accelerator networking service. The actor is using the AWS Global Accelerator to redirect traffic to their actual C2 host, which is parked behind the legitimate AWS service. The actor has employed this technique to conceal their identity. The payload runs as a Windows security update service on the victim's machine and establishes communication with the C2 to remotely download and execute files in the victim's environment.\n\n",
+            "Exfiltration": "None",
+            "Impact": "None",
+            "Others": "None"
+        },
+        "technique_label": true
+    }
+]

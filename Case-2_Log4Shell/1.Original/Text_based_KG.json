@@ -1,0 +1,389 @@
+[
+    {
+        "triplets": [
+            {
+                "Subject": "Deep Panda",
+                "SubjectType": "threat-actor",
+                "Description_of_Subject": "A threat actor group known for targeting sensitive information and leveraging vulnerabilities to gain unauthorized access.",
+                "Relation": "spawn",
+                "RelationType": "other",
+                "Description_of_Relation": "Represents the act of placing and executing a harmful Dynamic Link Library (DLL) as part of their attack sequence.",
+                "Object": "PowerShell processes",
+                "ObjectType": "process",
+                "Description_of_Object": "A harmful piece of software in the form of a DLL, used to execute unauthorized actions on compromised systems.",
+                "tactic": "Initial Access",
+                "technique": [
+                    "T1190-Exploit Public-Facing Application"
+                ],
+                "SentenceNums": [
+                    0
+                ]
+            },
+            {
+                "Subject": "Deep Panda",
+                "SubjectType": "threat-actor",
+                "Description_of_Subject": "A threat actor group known for targeting sensitive information and leveraging vulnerabilities to gain unauthorized access.",
+                "Relation": "install",
+                "RelationType": "action",
+                "Description_of_Relation": "Represents the act of placing and executing a harmful Dynamic Link Library (DLL) as part of their attack sequence.",
+                "Object": "malicious DLL",
+                "ObjectType": "Malware",
+                "Description_of_Object": "A harmful piece of software in the form of a DLL, used to execute unauthorized actions on compromised systems.",
+                "tactic": "Initial Access",
+                "technique": [
+                    "T1190-Exploit Public-Facing Application"
+                ],
+                "SentenceNums": [
+                    1
+                ]
+            },
+            {
+                "Subject": "Milestone",
+                "SubjectType": "Malware",
+                "Description_of_Subject": "A backdoor module, part of the attack chain, based on Gh0st RAT/Netbot Attacker's source code, which uses various obfuscation techniques to operate stealthily.",
+                "Relation": "masquerade as",
+                "RelationType": "other",
+                "Description_of_Relation": "This relation conveys that the Milestone malware disguises itself to appear as the legitimate file Microsoft newdev.dll, aiding in evasion from security scans and users.",
+                "Object": "legitimate Microsoft newdev.dll",
+                "ObjectType": "file",
+                "Description_of_Object": "A file that the malware Milestone impersonates to avoid detection, masquerading as legitimate to mislead security measures or users.",
+                "tactic": "Execution",
+                "technique": [
+                    "T1059-Command and Scripting Interpreter",
+                    "T1129-Shared Modules",
+                    "T1569-System Services"
+                ],
+                "SentenceNums": [
+                    2
+                ]
+            },
+            {
+                "Subject": "Milestone backdoor 2016 version",
+                "SubjectType": "Malware",
+                "Description_of_Subject": "The 2016 version of the Milestone backdoor, a type of malware known for its capability to secretly provide unauthorized access to cybercriminals",
+                "Relation": "create",
+                "RelationType": "action",
+                "Description_of_Relation": "The action of eliminating the administrator user account it created, potentially to avoid detection by security measures after achieving its goals",
+                "Object": "administrator user",
+                "ObjectType": "user-account",
+                "Description_of_Object": "The course of action involving the deletion of the unauthorized administrator user account from the system to conceal its presence and actions",
+                "tactic": "Privilege Escalation",
+                "technique": [
+                    "T1098-Account Manipulation"
+                ],
+                "SentenceNums": [
+                    0
+                ]
+            },
+            {
+                "Subject": "Milestone backdoor 2016 version",
+                "SubjectType": "Malware",
+                "Description_of_Subject": "The 2016 version of the Milestone backdoor, a type of malware known for its capability to secretly provide unauthorized access to cybercriminals",
+                "Relation": "create",
+                "RelationType": "action",
+                "Description_of_Relation": "The action of eliminating the administrator user account it created, potentially to avoid detection by security measures after achieving its goals",
+                "Object": "username ANONYMOUS",
+                "ObjectType": "user-account",
+                "Description_of_Object": "The course of action involving the deletion of the unauthorized administrator user account from the system to conceal its presence and actions",
+                "tactic": "Privilege Escalation",
+                "technique": [
+                    "T1098-Account Manipulation"
+                ],
+                "SentenceNums": [
+                    0
+                ]
+            },
+            {
+                "Subject": "Milestone backdoor 2016 version",
+                "SubjectType": "Malware",
+                "Description_of_Subject": "The 2016 version of the Milestone backdoor, a type of malware known for its capability to secretly provide unauthorized access to cybercriminals",
+                "Relation": "create",
+                "RelationType": "action",
+                "Description_of_Relation": "The action of eliminating the administrator user account it created, potentially to avoid detection by security measures after achieving its goals",
+                "Object": "password MileSt0ne2@16",
+                "ObjectType": "artifacts",
+                "Description_of_Object": "The course of action involving the deletion of the unauthorized administrator user account from the system to conceal its presence and actions",
+                "tactic": "Privilege Escalation",
+                "technique": [
+                    "T1098-Account Manipulation"
+                ],
+                "SentenceNums": [
+                    0
+                ]
+            },
+            {
+                "Subject": "Milestone backdoor 2016 version",
+                "SubjectType": "Malware",
+                "Description_of_Subject": "The 2016 version of the Milestone backdoor, a type of malware known for its capability to secretly provide unauthorized access to cybercriminals",
+                "Relation": "execute",
+                "RelationType": "action",
+                "Description_of_Relation": "The action of eliminating the administrator user account it created, potentially to avoid detection by security measures after achieving its goals",
+                "Object": "another instance",
+                "ObjectType": "process",
+                "Description_of_Object": "The course of action involving the deletion of the unauthorized administrator user account from the system to conceal its presence and actions",
+                "tactic": "Privilege Escalation",
+                "technique": [
+                    "T1055-Process Injection"
+                ],
+                "SentenceNums": [
+                    0
+                ]
+            },
+            {
+                "Subject": "Milestone backdoor 2016 version",
+                "SubjectType": "Malware",
+                "Description_of_Subject": "The 2016 version of the Milestone backdoor, a type of malware known for its capability to secretly provide unauthorized access to cybercriminals",
+                "Relation": "remove",
+                "RelationType": "action",
+                "Description_of_Relation": "The action of eliminating the administrator user account it created, potentially to avoid detection by security measures after achieving its goals",
+                "Object": "user from the system",
+                "ObjectType": "course-of-action",
+                "Description_of_Object": "The course of action involving the deletion of the unauthorized administrator user account from the system to conceal its presence and actions",
+                "tactic": "Privilege Escalation",
+                "technique": [
+                    "Others"
+                ],
+                "SentenceNums": [
+                    0
+                ]
+            },
+            {
+                "Subject": "Deep Panda",
+                "SubjectType": "threat-actor",
+                "Description_of_Subject": "Fire Chili is a kernel rootkit used by Deep Panda",
+                "Relation": "use",
+                "RelationType": "action",
+                "Description_of_Relation": "Fire Chili uses stolen digital certificates from legitimate game development companies to sign its components, adding a layer of false legitimacy and helping to avoid detection",
+                "Object": "Fire Chili",
+                "ObjectType": "tool",
+                "Description_of_Object": "Stolen certificates from game development companies are legitimate digital certificates that Fire Chili misuses to appear trustworthy",
+                "tactic": "Defense Evasion",
+                "technique": [
+                    "T1036-Masquerading"
+                ],
+                "SentenceNums": [
+                    0
+                ]
+            },
+            {
+                "Subject": "Fire Chili",
+                "SubjectType": "tool",
+                "Description_of_Subject": "Fire Chili is a kernel rootkit used by Deep Panda",
+                "Relation": "hide",
+                "RelationType": "action",
+                "Description_of_Relation": "Fire Chili uses stolen digital certificates from legitimate game development companies to sign its components, adding a layer of false legitimacy and helping to avoid detection",
+                "Object": "malicious artifacts",
+                "ObjectType": "artifacts",
+                "Description_of_Object": "Stolen certificates from game development companies are legitimate digital certificates that Fire Chili misuses to appear trustworthy",
+                "tactic": "Defense Evasion",
+                "technique": [
+                    "T1564-Hide Artifacts"
+                ],
+                "SentenceNums": [
+                    0
+                ]
+            },
+            {
+                "Subject": "Fire Chili",
+                "SubjectType": "tool",
+                "Description_of_Subject": "Fire Chili is a kernel rootkit used by Deep Panda",
+                "Relation": "use",
+                "RelationType": "action",
+                "Description_of_Relation": "Fire Chili uses stolen digital certificates from legitimate game development companies to sign its components, adding a layer of false legitimacy and helping to avoid detection",
+                "Object": "Direct Kernel Object Modification (DKOM)",
+                "ObjectType": "Technique",
+                "Description_of_Object": "Stolen certificates from game development companies are legitimate digital certificates that Fire Chili misuses to appear trustworthy",
+                "tactic": "Defense Evasion",
+                "technique": [
+                    "T1014-Rootkit",
+                    "T1036-Masquerading"
+                ],
+                "SentenceNums": [
+                    1
+                ]
+            },
+            {
+                "Subject": "Fire Chili",
+                "SubjectType": "tool",
+                "Description_of_Subject": "Fire Chili is a kernel rootkit used by Deep Panda",
+                "Relation": "sign",
+                "RelationType": "action",
+                "Description_of_Relation": "Fire Chili uses stolen digital certificates from legitimate game development companies to sign its components, adding a layer of false legitimacy and helping to avoid detection",
+                "Object": "stolen certificates from game development companies",
+                "ObjectType": "X.509 Certificate",
+                "Description_of_Object": "Stolen certificates from game development companies are legitimate digital certificates that Fire Chili misuses to appear trustworthy",
+                "tactic": "Defense Evasion",
+                "technique": [
+                    "T1553-Subvert Trust Controls"
+                ],
+                "SentenceNums": [
+                    1
+                ]
+            },
+            {
+                "Subject": "Milestone backdoor",
+                "SubjectType": "Malware",
+                "Description_of_Subject": "A type of malware known as the Milestone backdoor, which possesses multiple malicious capabilities.",
+                "Relation": "discover",
+                "RelationType": "action",
+                "Description_of_Relation": "The function of the Milestone backdoor which allows it to capture and record the current display image on the infected system\u2019s monitor.",
+                "Object": "system information",
+                "ObjectType": "artifacts",
+                "Description_of_Object": "Image data of the current content displayed on a victim's screen obtained through the malware's screen capture capability.",
+                "tactic": "Discovery",
+                "technique": [
+                    "T1082-System Information Discovery"
+                ],
+                "SentenceNums": [
+                    0
+                ]
+            },
+            {
+                "Subject": "Milestone backdoor",
+                "SubjectType": "Malware",
+                "Description_of_Subject": "A type of malware known as the Milestone backdoor, which possesses multiple malicious capabilities.",
+                "Relation": "discover",
+                "RelationType": "action",
+                "Description_of_Relation": "The function of the Milestone backdoor which allows it to capture and record the current display image on the infected system\u2019s monitor.",
+                "Object": "file and directory",
+                "ObjectType": "artifacts",
+                "Description_of_Object": "Image data of the current content displayed on a victim's screen obtained through the malware's screen capture capability.",
+                "tactic": "Discovery",
+                "technique": [
+                    "T1083-File and Directory Discovery"
+                ],
+                "SentenceNums": [
+                    0
+                ]
+            },
+            {
+                "Subject": "Milestone backdoor",
+                "SubjectType": "Malware",
+                "Description_of_Subject": "A type of malware known as the Milestone backdoor, which possesses multiple malicious capabilities.",
+                "Relation": "capture",
+                "RelationType": "other",
+                "Description_of_Relation": "The function of the Milestone backdoor which allows it to capture and record the current display image on the infected system\u2019s monitor.",
+                "Object": "screen",
+                "ObjectType": "artifacts",
+                "Description_of_Object": "Image data of the current content displayed on a victim's screen obtained through the malware's screen capture capability.",
+                "tactic": "Discovery",
+                "technique": [
+                    "Others"
+                ],
+                "SentenceNums": [
+                    0
+                ]
+            },
+            {
+                "Subject": "Milestone backdoor",
+                "SubjectType": "Malware",
+                "Description_of_Subject": "A type of malware designed to secretly extract data from an infected system",
+                "Relation": "exfiltrate-to",
+                "RelationType": "other",
+                "Description_of_Relation": "This relation indicates the method and destination for the transfer of exfiltrated data",
+                "Object": "C2 channel",
+                "ObjectType": "Infrastrcucture",
+                "Description_of_Object": "The Command and Control channel used by malware to communicate with its controller, often utilized for data exfiltration and other illicit activities",
+                "tactic": "Exfiltration",
+                "technique": [
+                    "T1041-Exfiltration Over C2 Channel"
+                ],
+                "SentenceNums": [
+                    0
+                ]
+            },
+            {
+                "Subject": "campaign",
+                "SubjectType": "campaign",
+                "Description_of_Subject": "FortiEDR, a security software tool",
+                "Relation": "attribute-to",
+                "RelationType": "other",
+                "Description_of_Relation": "Detects and blocks these specific threats, referring to its role in identifying and mitigating threats associated with Deep Panda and Winnti",
+                "Object": "Deep Panda and Winnti",
+                "ObjectType": "threat-actor",
+                "Description_of_Object": "These threats consist of the malicious activities and tools used by Deep Panda and Winnti, including the Milestone backdoor and Fire Chili rootkit",
+                "tactic": "Others",
+                "technique": [
+                    "Others"
+                ],
+                "SentenceNums": [
+                    0
+                ]
+            },
+            {
+                "Subject": "Deep Panda and Winnti",
+                "SubjectType": "threat-actor",
+                "Description_of_Subject": "FortiEDR, a security software tool",
+                "Relation": "use",
+                "RelationType": "action",
+                "Description_of_Relation": "Detects and blocks these specific threats, referring to its role in identifying and mitigating threats associated with Deep Panda and Winnti",
+                "Object": "Milestone backdoor",
+                "ObjectType": "malware",
+                "Description_of_Object": "These threats consist of the malicious activities and tools used by Deep Panda and Winnti, including the Milestone backdoor and Fire Chili rootkit",
+                "tactic": "Others",
+                "technique": [
+                    "Others"
+                ],
+                "SentenceNums": [
+                    0
+                ]
+            },
+            {
+                "Subject": "Deep Panda and Winnti",
+                "SubjectType": "threat-actor",
+                "Description_of_Subject": "FortiEDR, a security software tool",
+                "Relation": "use",
+                "RelationType": "action",
+                "Description_of_Relation": "Detects and blocks these specific threats, referring to its role in identifying and mitigating threats associated with Deep Panda and Winnti",
+                "Object": "Fire Chili rootkit",
+                "ObjectType": "malware",
+                "Description_of_Object": "These threats consist of the malicious activities and tools used by Deep Panda and Winnti, including the Milestone backdoor and Fire Chili rootkit",
+                "tactic": "Others",
+                "technique": [
+                    "Others"
+                ],
+                "SentenceNums": [
+                    0
+                ]
+            },
+            {
+                "Subject": "FortiEDR",
+                "SubjectType": "software",
+                "Description_of_Subject": "FortiEDR, a security software tool",
+                "Relation": "detect-and-block",
+                "RelationType": "other",
+                "Description_of_Relation": "Detects and blocks these specific threats, referring to its role in identifying and mitigating threats associated with Deep Panda and Winnti",
+                "Object": "these threats",
+                "ObjectType": "artifacts",
+                "Description_of_Object": "These threats consist of the malicious activities and tools used by Deep Panda and Winnti, including the Milestone backdoor and Fire Chili rootkit",
+                "tactic": "Others",
+                "technique": [
+                    "Others"
+                ],
+                "SentenceNums": [
+                    2
+                ]
+            }
+        ],
+        "file_name": "New Milestones for Deep Panda_ Log4Shell and Digitally Signed Fire Chili Rootkits",
+        "tactic_label": true,
+        "rewrite": {
+            "Reconnaissance": "None",
+            "Resource Development": "During the past month, FortiEDR detected a campaign by Deep Panda, a Chinese APT group, which exploited the Log4Shell vulnerability in VMware Horizon servers. The group targeted multiple sectors, including financial, academic, cosmetics, and travel industries, across several countries. Deep Panda deployed a backdoor on infected machines and used a stolen digital certificate, also utilized by another Chinese APT group, Winnti, to sign their tools.",
+            "Initial Access": "Deep Panda gained initial access through the exploitation of the Log4Shell vulnerability in VMware Horizon servers. This allowed them to spawn new PowerShell processes to download and execute a chain of scripts, culminating in the installation of a malicious DLL.",
+            "Execution": "The attack chain involved the execution of PowerShell scripts and a batch file to download and run additional files, including syn.exe and 1.dll. The 1.dll module, dubbed Milestone, is a backdoor based on Gh0st RAT/Netbot Attacker's leaked source code and packed with Themida. It creates a service named msupdate2 and masquerades as the legitimate Microsoft newdev.dll.",
+            "Persistence": "The Milestone backdoor ensures persistence by copying itself to %APPDATA%\\newdev.dll and creating a service named msupdate2 directly in the registry. This service is registered with various names and descriptions across different samples.",
+            "Privilege Escalation": "The 2016 version of the Milestone backdoor creates a new administrator user with the username ANONYMOUS and password MileSt0ne2@16, executes another instance of itself with CreateProcessAsUser, and then removes the user from the system.",
+            "Defense Evasion": "Deep Panda's campaign involved the use of a novel kernel rootkit, Fire Chili, which hides and protects malicious artifacts, including files, processes, registry keys, and network connections. The rootkit uses Direct Kernel Object Modification (DKOM) and is signed with stolen certificates from game development companies. It also employs Themida for software packing and masquerading techniques to evade detection.",
+            "Credential Access": "None",
+            "Discovery": "The Milestone backdoor has capabilities for system information discovery, file and directory discovery, and screen capture.",
+            "Lateral Movement": "None",
+            "Collection": "None",
+            "Command and Control": "The Milestone backdoor communicates with a C2 server uncompressed, unlike the zlib-compressed communication of Gh0st RAT. It also supports a command that sends information about the current sessions on the system to the server.",
+            "Exfiltration": "The Milestone backdoor exfiltrates data over the C2 channel.",
+            "Impact": "None",
+            "Others": "The campaign's attribution to Deep Panda and Winnti is based on the use of the Milestone backdoor, previously known as Infoadmin RAT, and the Fire Chili rootkit, both of which share similarities with tools used by these groups in the past. The use of stolen certificates and C2 infrastructure suggests possible resource sharing between the groups. FortiEDR detects and blocks these threats, and all network IOCs have been added to the FortiGuard WebFiltering blocklist."
+        },
+        "technique_label": true
+    }
+]

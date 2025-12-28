@@ -1,0 +1,1357 @@
+{
+    "pictures": [
+        {
+            "name": "Based on other related samples we discovered, the actor also uses different folder names tasks names and dropper file names in their campaigns.PNG",
+            "pic_type": "File Paths and Names",
+            "questions": [
+                {
+                    "question": "What is the main content of the image?"
+                },
+                {
+                    "question": "What is the possible source of the image?"
+                },
+                {
+                    "question": "What are the possible uses of the image?"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?"
+                },
+                {
+                    "question": "What commands are executed in the image?"
+                },
+                {
+                    "question": "What is the purpose of the file being downloaded in the image?"
+                },
+                {
+                    "question": "What is the significance of the task scheduler command in the image?"
+                },
+                {
+                    "question": "What is the potential impact of executing the commands in the image?"
+                },
+                {
+                    "question": "What can be inferred about the security implications in the image?"
+                },
+                {
+                    "question": "What are the identifiable variables or placeholders in the command shown in the image?"
+                },
+                {
+                    "question": "What vulnerabilities are targeted in the context of the image?"
+                },
+                {
+                    "question": "What does the presence of 'AWS Global Accelerator' signify in the image?"
+                },
+                {
+                    "question": "How is the C2 server depicted in the image utilized?"
+                },
+                {
+                    "question": "What tactics are employed to evade detection in the image?"
+                },
+                {
+                    "question": "What does the URL in the command suggest about the attack infrastructure?"
+                }
+            ]
+        },
+        {
+            "name": "Bitter APT adds Bangladesh to their targets.PNG",
+            "pic_type": "Descriptive Image and Content Explanation",
+            "questions": [
+                {
+                    "question": "What is the main content of the image?"
+                },
+                {
+                    "question": "What is the possible source of the image?"
+                },
+                {
+                    "question": "What are the possible uses of the image?"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?"
+                },
+                {
+                    "question": "What is the significance of the frog in the image?"
+                },
+                {
+                    "question": "What does the background pattern symbolize in the context of the image?"
+                },
+                {
+                    "question": "Who is the target audience for the information conveyed in the image?"
+                },
+                {
+                    "question": "What is the role of the 'Talos' branding in the image?"
+                },
+                {
+                    "question": "What emotions or reactions is the image likely intended to evoke?"
+                },
+                {
+                    "question": "What could be the implications of the title 'Bitter APT' as shown in the image?"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?"
+                },
+                {
+                    "question": "What aspect of AWS Global Accelerator usage might be highlighted in this image?"
+                },
+                {
+                    "question": "What does the use of phishing elements in the image suggest about the article's context?"
+                },
+                {
+                    "question": "How is 'Bitter APT's tactic of using the Windows security update service depicted in this image?"
+                }
+            ]
+        },
+        {
+            "name": "Decryption function.PNG",
+            "pic_type": "Malware Code",
+            "questions": [
+                {
+                    "question": "What is the main content of the image?"
+                },
+                {
+                    "question": "What is the possible source of the image?"
+                },
+                {
+                    "question": "What are the possible uses of the image?"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?"
+                },
+                {
+                    "question": "What is the possible function of the zCode in the image?"
+                },
+                {
+                    "question": "What programming language is used in the image?"
+                },
+                {
+                    "question": "What is the role of the variables 'v2', 'v3', and 'result' in the image?"
+                },
+                {
+                    "question": "What kind of operation does the 'for' loop perform in the image?"
+                },
+                {
+                    "question": "What is the purpose of the 'return result' statement in the image?"
+                },
+                {
+                    "question": "What is the significance of the '^=' operator within the loop in the image?"
+                },
+                {
+                    "question": "What does the logic of this code fragment aim to accomplish?"
+                },
+                {
+                    "question": "What could be the practical applications of this code in real-world scenarios?"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?"
+                },
+                {
+                    "question": "How does the image relate to the AWS Global Accelerator used by the Bitter APT group?"
+                },
+                {
+                    "question": "What is the significance of command and control infrastructure in relation to the image?"
+                },
+                {
+                    "question": "How might the image be used as part of a phishing tactic?"
+                },
+                {
+                    "question": "What vulnerabilities (CVE-2017-11882, CVE-2018-0798, CVE-2018-0802) are potentially exploited in relation to the image?"
+                }
+            ]
+        },
+        {
+            "name": "Domains hosting Bitter APT malware.PNG",
+            "pic_type": "Data Table",
+            "questions": [
+                {
+                    "question": "What is the main content of the image?"
+                },
+                {
+                    "question": "What is the possible source of the image?"
+                },
+                {
+                    "question": "What are the possible uses of the image?"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?"
+                },
+                {
+                    "question": "What are the fields highlighted in the image?"
+                },
+                {
+                    "question": "What are the possible informations relevant to malicious activity in the image?"
+                },
+                {
+                    "question": "What is the significance of the dates in the image?"
+                },
+                {
+                    "question": "What is the purpose of the domains listed in the image?"
+                },
+                {
+                    "question": "What organization does the logo in the image represent?"
+                },
+                {
+                    "question": "What actions should be taken if these domains are encountered?"
+                },
+                {
+                    "question": "What are the potential threats associated with the domains listed in the image?"
+                },
+                {
+                    "question": "What is the geographic location of the domain registrants, if available?"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?"
+                },
+                {
+                    "question": "What specific vulnerabilities (e.g., CVE-2017-11882) are exploited in the context of the image?"
+                },
+                {
+                    "question": "What methods are used to distribute the malicious documents to the entities depicted in the image?"
+                },
+                {
+                    "question": "What is the function of the C2 server mentioned in relation to the domains in the image?"
+                },
+                {
+                    "question": "How is AWS Global Accelerator being used in the context of the domains shown in the image?"
+                },
+                {
+                    "question": "What is the significance of the security firm Cisco Talos in the presentation of this image?"
+                },
+                {
+                    "question": "How do the domains in the image relate to the overall cyber-espionage operation?"
+                }
+            ]
+        },
+        {
+            "name": "Download URL captured during runtime of the maldoc.PNG",
+            "pic_type": "Malware Code",
+            "questions": [
+                {
+                    "question": "What is the main content of the image?"
+                },
+                {
+                    "question": "What is the possible source of the image?"
+                },
+                {
+                    "question": "What are the possible uses of the image?"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?"
+                },
+                {
+                    "question": "What is the possible function of the zCode in the image?"
+                },
+                {
+                    "question": "What is the significance of the URL embedded in the image?"
+                },
+                {
+                    "question": "What programming or scripting language is likely used to generate the code snippets in the image?"
+                },
+                {
+                    "question": "What is the relationship between the addresses and the strings shown in the image?"
+                },
+                {
+                    "question": "What are the potential security implications indicated by the disassembly code in the image?"
+                },
+                {
+                    "question": "What could be the role of the highlighted disassembly lines in the context of the code shown in the image?"
+                },
+                {
+                    "question": "What vulnerabilities might be exploited, as indicated by the addresses or functions called in the image?"
+                },
+                {
+                    "question": "What type of targeted entities could this image relate to, considering the campaign's focus?"
+                },
+                {
+                    "question": "What command and control techniques might be relevant to the infrastructure or URLs shown in this image?"
+                },
+                {
+                    "question": "What is the potential impact of the highlighted infrastructure components in orchestrating a sophisticated cyber-attack?"
+                }
+            ]
+        },
+        {
+            "name": "Embedded Microsoft Equation object.PNG",
+            "pic_type": "Application Tool Screenshot",
+            "questions": [
+                {
+                    "question": "What is the main content of the image?"
+                },
+                {
+                    "question": "What is the possible source of the image?"
+                },
+                {
+                    "question": "What are the possible uses of the image?"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?"
+                },
+                {
+                    "question": "What tools are used in the image analysis?"
+                },
+                {
+                    "question": "What is the significance of the 'Equation.3' object in the image?"
+                },
+                {
+                    "question": "What file format is being analyzed in the image?"
+                },
+                {
+                    "question": "What is the size of the OLE object shown in the image?"
+                },
+                {
+                    "question": "What is the purpose of the 'rtfobj' command used in the image?"
+                },
+                {
+                    "question": "What information does the md5 hash provide in the image?"
+                },
+                {
+                    "question": "What information does the command output at the top of the image provide about the file structure?"
+                },
+                {
+                    "question": "How is the 'format_id' parameter utilized within the image?"
+                },
+                {
+                    "question": "Where is the file saved according to the command shown in the image?"
+                }
+            ]
+        },
+        {
+            "name": "Information-gathering function.PNG",
+            "pic_type": "Malware Code",
+            "questions": [
+                {
+                    "question": "What is the main content of the image?"
+                },
+                {
+                    "question": "What is the possible source of the image?"
+                },
+                {
+                    "question": "What are the possible uses of the image?"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?"
+                },
+                {
+                    "question": "What is the possible function of the zCode in the image?"
+                },
+                {
+                    "question": "What programming language is used in the image?"
+                },
+                {
+                    "question": "What is the purpose of the function shown in the image?"
+                },
+                {
+                    "question": "What are the notable variables in the image and their significance?"
+                },
+                {
+                    "question": "What indications of malicious intent can be found in the code from the image?"
+                },
+                {
+                    "question": "What are the potential vulnerabilities present in the code of the image?"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?"
+                },
+                {
+                    "question": "What is the significance of the CVE vulnerabilities mentioned in relation to the image?"
+                },
+                {
+                    "question": "How does the code in the image contribute to the masquerade of legitimate software?"
+                },
+                {
+                    "question": "What strategies are employed in the image to maintain command and control?"
+                },
+                {
+                    "question": "What role does the C2 server play according to the code in the image?"
+                },
+                {
+                    "question": "How is network proxying reflected in the code of the image?"
+                }
+            ]
+        },
+        {
+            "name": "Malicious Excel infection chain summary.PNG",
+            "pic_type": "Attack Flow or Intelligence Structure",
+            "questions": [
+                {
+                    "question": "What is the main content of the image?"
+                },
+                {
+                    "question": "What is the possible source of the image?"
+                },
+                {
+                    "question": "What are the possible uses of the image?"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?"
+                },
+                {
+                    "question": "What is the sequential relationship of the processes in the image?"
+                },
+                {
+                    "question": "What are the possible targets of attack in the image?"
+                },
+                {
+                    "question": "What is the role of 'schtasks' in the image?"
+                },
+                {
+                    "question": "What is the significance of 'EQNEDT32' in the context of the image?"
+                },
+                {
+                    "question": "What actions are performed on the hosting server in the image?"
+                },
+                {
+                    "question": "What is the function of the C2 server depicted in the image?"
+                },
+                {
+                    "question": "What organizations or entities could potentially be at risk according to the processes shown in the image?"
+                },
+                {
+                    "question": "What types of precautions can be taken to prevent the attack sequence shown in the image?"
+                },
+                {
+                    "question": "What does the iconography in the image indicate about each step in the process?"
+                },
+                {
+                    "question": "What vulnerabilities are specifically exploited according to the image?"
+                },
+                {
+                    "question": "What is the role of AWS Global Accelerator in the context of the image?"
+                },
+                {
+                    "question": "How is network proxying depicted in the image?"
+                },
+                {
+                    "question": "What themed lure documents are involved in the process illustrated by the image?"
+                },
+                {
+                    "question": "Where does the image indicate initial access is gained from?"
+                },
+                {
+                    "question": "What are the indicators of persistent access in the image?"
+                },
+                {
+                    "question": "What entities are the primary focus of the infiltration strategy in the image?"
+                }
+            ]
+        },
+        {
+            "name": "Malicious Excel spreadsheet.PNG",
+            "pic_type": "Application Tool Screenshot",
+            "questions": [
+                {
+                    "question": "What is the main content of the image?"
+                },
+                {
+                    "question": "What is the possible source of the image?"
+                },
+                {
+                    "question": "What are the possible uses of the image?"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?"
+                },
+                {
+                    "question": "What is the significance of the selected cell range in the image?"
+                },
+                {
+                    "question": "What type of formula or function is used in the formula bar of the image?"
+                },
+                {
+                    "question": "What are the visible tabs and options in the menu of the image?"
+                },
+                {
+                    "question": "What are the potential security risks depicted in the image?"
+                },
+                {
+                    "question": "What might the embedded object in the image represent?"
+                },
+                {
+                    "question": "What are the possible relationships between the different elements in the image?"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?"
+                },
+                {
+                    "question": "What specific vulnerabilities are likely being exploited as indicated by the image?"
+                },
+                {
+                    "question": "How is the AWS Global Accelerator potentially used in the context of the activities shown in the image?"
+                },
+                {
+                    "question": "In what way could network proxying (T1090-Proxy) be illustrated in the image?"
+                },
+                {
+                    "question": "How does the image depict the technique of masquerading as legitimate software, such as a Windows security update service?"
+                },
+                {
+                    "question": "Where can indicators of the C2 server infrastructure be inferred from the image?"
+                },
+                {
+                    "question": "What aspect of governmental targeting is reflected in the image based on its content?"
+                }
+            ]
+        },
+        {
+            "name": "Malicious RTF document sample.PNG",
+            "pic_type": "Malware Code",
+            "questions": [
+                {
+                    "question": "What is the main content of the image?"
+                },
+                {
+                    "question": "What is the possible source of the image?"
+                },
+                {
+                    "question": "What are the possible uses of the image?"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?"
+                },
+                {
+                    "question": "What is the possible function of the zCode in the image?"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?"
+                },
+                {
+                    "question": "What is the significance of the hexadecimal sequence highlighted in the image?"
+                },
+                {
+                    "question": "What is the structure and syntax of the code present in the image?"
+                },
+                {
+                    "question": "What is the possible reason for the presence of a blank square in the image?"
+                },
+                {
+                    "question": "What types of data or information are encoded within the script shown in the image?"
+                },
+                {
+                    "question": "What software or applications could be associated with the elements displayed in the image?"
+                },
+                {
+                    "question": "Where is the location of the object data in the image?"
+                },
+                {
+                    "question": "What is the font size and style specified in the toolbar in the image?"
+                },
+                {
+                    "question": "What are the possible vulnerabilities exposed by the elements in the image?"
+                },
+                {
+                    "question": "What are the potential security risks inherent in the content of the image?"
+                },
+                {
+                    "question": "What is the potential significance of AWS Global Accelerator depicted in the image?"
+                },
+                {
+                    "question": "What type of encoded command might be shown in the lower section of the image?"
+                },
+                {
+                    "question": "What vulnerabilities (CVE-2017-11882, CVE-2018-0798, CVE-2018-0802) are depicted or referenced in this image?"
+                },
+                {
+                    "question": "What evidence of network proxying techniques can be derived from the image?"
+                }
+            ]
+        },
+        {
+            "name": "Malicious RTF infection chain summary.PNG",
+            "pic_type": "Attack Flow or Intelligence Structure",
+            "questions": [
+                {
+                    "question": "What is the main content of the image?"
+                },
+                {
+                    "question": "What is the possible source of the image?"
+                },
+                {
+                    "question": "What are the possible uses of the image?"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?"
+                },
+                {
+                    "question": "What is the sequential relationship of the processes in the image?"
+                },
+                {
+                    "question": "What are the possible targets of attack in the image?"
+                },
+                {
+                    "question": "What is the significance of the 'EQNEDT32' component in the image?"
+                },
+                {
+                    "question": "What are the potential entry points for an attack as shown in the image?"
+                },
+                {
+                    "question": "What role does the 'Hosting Server' play in the image?"
+                },
+                {
+                    "question": "What is the connection between the 'Spear Phishing Email' and the 'RTF Document' in the image?"
+                },
+                {
+                    "question": "How does the payload delivery process occur in the image?"
+                },
+                {
+                    "question": "What is the function of the 'C2' element in the image?"
+                },
+                {
+                    "question": "What vulnerabilities are exploited as shown in the image?"
+                },
+                {
+                    "question": "How does the threat actor utilize AWS Global Accelerator in the context of the image?"
+                },
+                {
+                    "question": "What tactic is represented by network proxying (T1090-Proxy) in the image?"
+                },
+                {
+                    "question": "What governmental entities are targeted according to the image description?"
+                },
+                {
+                    "question": "What infrastructure is leveraged by the attackers in the image for command and control?"
+                }
+            ]
+        },
+        {
+            "name": "Phishing email header information.PNG",
+            "pic_type": "Descriptive Image and Content Explanation",
+            "questions": [
+                {
+                    "question": "What is the main content of the image?"
+                },
+                {
+                    "question": "What is the possible source of the image?"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?"
+                },
+                {
+                    "question": "What are the possible uses of the image?"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?"
+                },
+                {
+                    "question": "What is the date and time indicated in the image?"
+                },
+                {
+                    "question": "What email addresses are visible in the image?"
+                },
+                {
+                    "question": "What is the X-Originating-IP address shown in the image?"
+                },
+                {
+                    "question": "What software version is mentioned in the image?"
+                },
+                {
+                    "question": "What is the significance of the 'Received' line in the image?"
+                },
+                {
+                    "question": "What can be inferred from the subject of the email in the image?"
+                },
+                {
+                    "question": "What specific vulnerabilities are being exploited in the context of this image?"
+                },
+                {
+                    "question": "What insights can be drawn about the AWS Global Accelerator's use in this infrastructure from the image?"
+                },
+                {
+                    "question": "What types of files or documents could be associated with the email content shown in this image?"
+                },
+                {
+                    "question": "How does the image suggest tactics for evading detection?"
+                },
+                {
+                    "question": "What information in the image indicates a targeted focus on Bangladesh's government entities?"
+                },
+                {
+                    "question": "How does the image relate to the use of network proxying in cyber operations?"
+                },
+                {
+                    "question": "What C2 server details can be interpreted from the image?"
+                },
+                {
+                    "question": "What observations can be made from the 'Received' lines regarding potential email relay paths?"
+                }
+            ]
+        },
+        {
+            "name": "Phishing email sample 1.PNG",
+            "pic_type": "Descriptive Image and Content Explanation",
+            "questions": [
+                {
+                    "question": "What is the main content of the image?"
+                },
+                {
+                    "question": "What is the possible source of the image?"
+                },
+                {
+                    "question": "What are the possible uses of the image?"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?"
+                },
+                {
+                    "question": "What is the intended audience of the email shown in the image?"
+                },
+                {
+                    "question": "What evidence in the image suggests phishing or fraudulent activity?"
+                },
+                {
+                    "question": "What is the significance of the file size of the attachment in the image?"
+                },
+                {
+                    "question": "What email addresses are visible in the image, and what do they imply?"
+                },
+                {
+                    "question": "What visual elements in the image suggest formality or informality?"
+                },
+                {
+                    "question": "What specific instructions are given in the email shown in the image?"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?"
+                },
+                {
+                    "question": "What vulnerabilities are being exploited as indicated by the image?"
+                },
+                {
+                    "question": "What indications are there in the image that suggest involvement by the Bitter APT group?"
+                },
+                {
+                    "question": "What is the relevance of the RAB-13 RANGPUR identity in the context of this phishing email?"
+                },
+                {
+                    "question": "What kind of document is 'Registered Cases List.xlsx' likely to be, based on the image?"
+                },
+                {
+                    "question": "What details in the image align with the tactics (e.g., network proxying) described in the knowledge graph?"
+                }
+            ]
+        },
+        {
+            "name": "Phishing email sample 2.PNG",
+            "pic_type": "Descriptive Image and Content Explanation",
+            "questions": [
+                {
+                    "question": "What is the main content of the image?"
+                },
+                {
+                    "question": "What is the possible source of the image?"
+                },
+                {
+                    "question": "What are the possible uses of the image?"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?"
+                },
+                {
+                    "question": "What is the intended audience of the email shown in the image?"
+                },
+                {
+                    "question": "What evidence in the image suggests phishing or fraudulent activity?"
+                },
+                {
+                    "question": "What language style is used in the email of the image?"
+                },
+                {
+                    "question": "What kind of document is attached to the email in the image?"
+                },
+                {
+                    "question": "What are the possible intentions of the sender in the email shown in the image?"
+                },
+                {
+                    "question": "What email addresses are visible in the image?"
+                },
+                {
+                    "question": "What is the significance of the email subject in the image?"
+                },
+                {
+                    "question": "What is the significance of the file size shown in the image?"
+                },
+                {
+                    "question": "What vulnerabilities might be exploited as seen in the image?"
+                },
+                {
+                    "question": "What is the potential impact on the recipients based on the image?"
+                },
+                {
+                    "question": "What specific entities are targeted according to the image?"
+                },
+                {
+                    "question": "What infrastructure details can be inferred from the image?"
+                }
+            ]
+        },
+        {
+            "name": "Rdx.PNG",
+            "pic_type": "Malware Code",
+            "questions": [
+                {
+                    "question": "What is the main content of the image?"
+                },
+                {
+                    "question": "What is the possible source of the image?"
+                },
+                {
+                    "question": "What are the possible uses of the image?"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?"
+                },
+                {
+                    "question": "What is the possible function of the zCode in the image?"
+                },
+                {
+                    "question": "What is the significance of the URL in the image?"
+                },
+                {
+                    "question": "What is the purpose of the '/sc MINUTE /mo 15' parameter in the command?"
+                },
+                {
+                    "question": "What role does 'schtasks.exe' play in the image?"
+                },
+                {
+                    "question": "What is the function of 'cmd /c start /min curl' within this context?"
+                },
+                {
+                    "question": "What are the security implications of the actions depicted in the image?"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?"
+                },
+                {
+                    "question": "What vulnerabilities (e.g., CVE-2017-11882) are being targeted as shown in the image?"
+                },
+                {
+                    "question": "How does the image depict the use of themed lure documents in the attack?"
+                },
+                {
+                    "question": "How is the AWS Global Accelerator related to the actions in the image?"
+                },
+                {
+                    "question": "What is the significance of exploiting the Rapid Action Battalion Unit as mentioned in the image?"
+                }
+            ]
+        },
+        {
+            "name": "RdxFac.PNG",
+            "pic_type": "File Paths and Names",
+            "questions": [
+                {
+                    "question": "What is the main content of the image?"
+                },
+                {
+                    "question": "What is the possible source of the image?"
+                },
+                {
+                    "question": "What are the possible uses of the image?"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?"
+                },
+                {
+                    "question": "What is the significance of the file path in the image?"
+                },
+                {
+                    "question": "What could be the potential risks associated with the file shown in the image?"
+                },
+                {
+                    "question": "What is the possible purpose of storing an executable file in a public music directory?"
+                },
+                {
+                    "question": "What are the security implications of executing the file in this location?"
+                },
+                {
+                    "question": "What type of file is depicted in the image?"
+                },
+                {
+                    "question": "Which operating system is most likely to be relevant to the image content?"
+                },
+                {
+                    "question": "What measures can be taken to protect against threats posed by the file in the image?"
+                },
+                {
+                    "question": "What details in the image suggest who might have placed the file in the music directory?"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?"
+                },
+                {
+                    "question": "How might the Bitter APT group's tactics be represented in the image?"
+                },
+                {
+                    "question": "What vulnerabilities could be associated with the content shown in the image?"
+                },
+                {
+                    "question": "How does the file in the image relate to the phishing tactics mentioned in the knowledge graph?"
+                }
+            ]
+        },
+        {
+            "name": "Request sent to C2.PNG",
+            "pic_type": "File Paths and Names",
+            "questions": [
+                {
+                    "question": "What is the main content of the image?"
+                },
+                {
+                    "question": "What is the possible source of the image?"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?"
+                },
+                {
+                    "question": "What are the possible uses of the image?"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?"
+                },
+                {
+                    "question": "What HTTP requests are being made in the image?"
+                },
+                {
+                    "question": "What are the possible intentions behind the requests shown in the image?"
+                },
+                {
+                    "question": "What coding language or scripting format is depicted in the image?"
+                },
+                {
+                    "question": "What platform or operating system is involved based on the image?"
+                },
+                {
+                    "question": "What kind of data is being requested in the image?"
+                },
+                {
+                    "question": "What is the significance of the file paths in the image?"
+                },
+                {
+                    "question": "What specific vulnerabilities are being exploited in the image?"
+                },
+                {
+                    "question": "How is AWS Global Accelerator being represented in the image?"
+                },
+                {
+                    "question": "What evidence suggests the involvement of the Bitter APT group in the image?"
+                },
+                {
+                    "question": "What techniques are used in the image to evade detection?"
+                },
+                {
+                    "question": "How are phishing tactics visualized in the image?"
+                }
+            ]
+        },
+        {
+            "name": "Requests making function 1 at offset 00401E00.PNG",
+            "pic_type": "Malware Code",
+            "questions": [
+                {
+                    "question": "What is the main content of the image?"
+                },
+                {
+                    "question": "What is the possible source of the image?"
+                },
+                {
+                    "question": "What are the possible uses of the image?"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?"
+                },
+                {
+                    "question": "What is the possible function of the zCode in the image?"
+                },
+                {
+                    "question": "What programming language is used in the image?"
+                },
+                {
+                    "question": "What is the purpose of the function shown in the image?"
+                },
+                {
+                    "question": "What are the notable function calls present in the image?"
+                },
+                {
+                    "question": "What does the color-coding of the text in the image signify?"
+                },
+                {
+                    "question": "What kind of operations is the code in the image performing?"
+                },
+                {
+                    "question": "What is the significance of the variable names used in the image?"
+                },
+                {
+                    "question": "What is the potential impact of executing the code shown in the image?"
+                },
+                {
+                    "question": "What are the likely security implications of the code in the image?"
+                },
+                {
+                    "question": "What debugging information, if any, can be deduced from the image?"
+                },
+                {
+                    "question": "What elements in the image suggest involvement of the Bitter APT group?"
+                },
+                {
+                    "question": "How does the image reflect phishing tactics described in the knowledge graph?"
+                },
+                {
+                    "question": "Where in the image could the vulnerabilities such as CVE-2017-11882 be potentially exploited?"
+                },
+                {
+                    "question": "What indications are present in the image that could relate to the AWS Global Accelerator use?"
+                },
+                {
+                    "question": "Which part of the image could reveal network proxying tactics like T1090-Proxy?"
+                },
+                {
+                    "question": "What artifacts in the image suggest the masking of malicious activities?"
+                }
+            ]
+        },
+        {
+            "name": "Requests making function 2 at offset 00402130..PNG",
+            "pic_type": "Malware Code",
+            "questions": [
+                {
+                    "question": "What is the main content of the image?"
+                },
+                {
+                    "question": "What is the possible source of the image?"
+                },
+                {
+                    "question": "What are the possible uses of the image?"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?"
+                },
+                {
+                    "question": "What is the possible function of the zCode in the image?"
+                },
+                {
+                    "question": "What programming language is used in the image?"
+                },
+                {
+                    "question": "What is the purpose of the 'Sleep' function in the image?"
+                },
+                {
+                    "question": "What could be the potential effects of the 'ShellExecuteA' function in the image?"
+                },
+                {
+                    "question": "What are the security implications of the code depicted in the image?"
+                },
+                {
+                    "question": "What is the role of the 'byte_4052EB' in the image?"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?"
+                },
+                {
+                    "question": "What are the vulnerabilities targeted by the code in the image?"
+                },
+                {
+                    "question": "How does the image relate to the Bitter APT campaign?"
+                },
+                {
+                    "question": "What methods are used in the image to evade detection?"
+                },
+                {
+                    "question": "What is the significance of the C2 server concerning the code in the image?"
+                }
+            ]
+        },
+        {
+            "name": "The timeline below shows the various domains based on their certificate creation date.PNG",
+            "pic_type": "Charts and Data Visualization",
+            "questions": [
+                {
+                    "question": "What is the main content of the image?"
+                },
+                {
+                    "question": "What is the possible source of the image?"
+                },
+                {
+                    "question": "What are the possible uses of the image?"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?"
+                },
+                {
+                    "question": "What are the trends reflected in the image?"
+                },
+                {
+                    "question": "What are the conclusions that can be made based on the image?"
+                },
+                {
+                    "question": "What are the specific domains mentioned in the timeline of the image?"
+                },
+                {
+                    "question": "When did each domain SSL certificate become valid as shown in the image timeline?"
+                },
+                {
+                    "question": "What significance do the changes in domain names have over the given timeline in the image?"
+                },
+                {
+                    "question": "What organization does the logo 'Talos' in the image represent?"
+                },
+                {
+                    "question": "How does the visual layout of the timeline contribute to understanding the sequence of events in the image?"
+                },
+                {
+                    "question": "What potential implications could the timeline of domain SSL certificates have for cybersecurity efforts?"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?"
+                },
+                {
+                    "question": "How does the use of AWS Global Accelerator relate to the domains shown in the image?"
+                },
+                {
+                    "question": "What insights can be drawn about the Bitter APT's choice of domains from this image?"
+                },
+                {
+                    "question": "How might the tactics of network proxying (T1090-Proxy) be reflected in the domain activities shown in the image?"
+                },
+                {
+                    "question": "What could be the reasons for the selection of these specific domains by the Bitter APT actor?"
+                },
+                {
+                    "question": "Which vulnerabilities might be exploited in connection with the domains listed in the image?"
+                },
+                {
+                    "question": "What does the presence of multiple domain names over consecutive months indicate about the campaign's strategy?"
+                }
+            ]
+        },
+        {
+            "name": "Ways our customers can detect and block this threat are listed below.PNG",
+            "pic_type": "Data Table",
+            "questions": [
+                {
+                    "question": "What is the main content of the image?"
+                },
+                {
+                    "question": "What is the possible source of the image?"
+                },
+                {
+                    "question": "What are the possible uses of the image?"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?"
+                },
+                {
+                    "question": "What are the fields highlighted in the image?"
+                },
+                {
+                    "question": "What are the possible informations relevant to malicious activity in the image?"
+                },
+                {
+                    "question": "What are the specific products listed in the image?"
+                },
+                {
+                    "question": "What is the meaning of the check marks in the protection column?"
+                },
+                {
+                    "question": "Which product in the image does not offer protection?"
+                },
+                {
+                    "question": "What kinds of protection do these products aim to provide?"
+                },
+                {
+                    "question": "How is the information in the image organized and categorized?"
+                },
+                {
+                    "question": "What could be the significance of 'N/A' mentioned in the image?"
+                },
+                {
+                    "question": "What is the significance of CVE identifiers in the context of the image?"
+                },
+                {
+                    "question": "What is the role of phishing tactics as depicted in the image?"
+                },
+                {
+                    "question": "What are the implications of targeting Bangladesh's governmental networks mentioned in the image?"
+                },
+                {
+                    "question": "How does AWS Global Accelerator feature in the protection strategy in the image?"
+                },
+                {
+                    "question": "What is the relevance of themed lure documents in the image?"
+                },
+                {
+                    "question": "How does network proxying relate to the protections shown in the image?"
+                },
+                {
+                    "question": "How do the products listed in the image help evade detection?"
+                },
+                {
+                    "question": "What is the connection between the C2 server and the products in the image?"
+                }
+            ]
+        },
+        {
+            "name": "WinMain function snippet.PNG",
+            "pic_type": "Malware Code",
+            "questions": [
+                {
+                    "question": "What is the main content of the image?"
+                },
+                {
+                    "question": "What is the possible source of the image?"
+                },
+                {
+                    "question": "What are the possible uses of the image?"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?"
+                },
+                {
+                    "question": "What is the possible function of the zCode in the image?"
+                },
+                {
+                    "question": "What programming language is used in the image?"
+                },
+                {
+                    "question": "What is the role of 'GetModuleFileNameA' in the image?"
+                },
+                {
+                    "question": "What does the 'push' operation do in this code?"
+                },
+                {
+                    "question": "What are the potential implications of the specific function calls shown in the image?"
+                },
+                {
+                    "question": "What is the significance of the hexadecimal values in the image?"
+                },
+                {
+                    "question": "What are the security risks associated with the code in the image?"
+                },
+                {
+                    "question": "What is the environment in which this code is likely to run?"
+                },
+                {
+                    "question": "What is the purpose of the comments in this code snippet?"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?"
+                },
+                {
+                    "question": "How does the threat actor utilize AWS Global Accelerator in the context of this code?"
+                },
+                {
+                    "question": "What vulnerabilities such as CVE-2017-11882, CVE-2018-0798, or CVE-2018-0802 could be exploited by the code in the image?"
+                },
+                {
+                    "question": "How might the code be used to target government entities like Bangladesh's Rapid Action Battalion?"
+                },
+                {
+                    "question": "What is the relationship between the code in the image and the command and control server described in the knowledge graph?"
+                }
+            ]
+        },
+        {
+            "name": "WinMain() snippet showing antivirus process detection.PNG",
+            "pic_type": "Malware Code",
+            "questions": [
+                {
+                    "question": "What is the main content of the image?"
+                },
+                {
+                    "question": "What is the possible source of the image?"
+                },
+                {
+                    "question": "What are the possible uses of the image?"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?"
+                },
+                {
+                    "question": "What is the possible function of the zCode in the image?"
+                },
+                {
+                    "question": "What programming language is used in the image?"
+                },
+                {
+                    "question": "What processes are identified in the image?"
+                },
+                {
+                    "question": "Where are the conditional operations performed in the image?"
+                },
+                {
+                    "question": "What is the significance of the offsets used in the image?"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?"
+                },
+                {
+                    "question": "How does the image illustrate the exploitation of vulnerabilities like CVE-2017-11882 and CVE-2018-0798?"
+                },
+                {
+                    "question": "What is the relationship between the image and the AWS Global Accelerator in the attack campaign?"
+                },
+                {
+                    "question": "Which infrastructure components depicted in the image are part of the C2 server operations?"
+                },
+                {
+                    "question": "How does the code in the image facilitate the execution of further malicious files?"
+                },
+                {
+                    "question": "In what way does the image demonstrate the tactics used for masquerading as legitimate software?"
+                }
+            ]
+        },
+        {
+            "name": "第4页-5.PNG",
+            "pic_type": "Data Table",
+            "questions": [
+                {
+                    "question": "What is the main content of the image?"
+                },
+                {
+                    "question": "What is the possible source of the image?"
+                },
+                {
+                    "question": "What are the possible uses of the image?"
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?"
+                },
+                {
+                    "question": "What are the fields highlighted in the image?"
+                },
+                {
+                    "question": "What are the possible informations relevant to malicious activity in the image?"
+                },
+                {
+                    "question": "What is the context of the 'Encrypted strings' in the image?"
+                },
+                {
+                    "question": "What is the significance of the 'Decrypted strings' shown in the image?"
+                },
+                {
+                    "question": "What is the relationship between each encrypted and decrypted string pair in the image?"
+                },
+                {
+                    "question": "What organization or entity is associated with the logo present in the image?"
+                },
+                {
+                    "question": "What could be the potential impact of the information presented in the image?"
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?"
+                },
+                {
+                    "question": "What vulnerabilities (CVE IDs) are associated with the attack as depicted in the image?"
+                },
+                {
+                    "question": "What is the significance of AWS Global Accelerator in this image?"
+                },
+                {
+                    "question": "What tactics to mask activities are highlighted in the image?"
+                },
+                {
+                    "question": "What is the relevance of the C2 server infrastructure shown in the image?"
+                },
+                {
+                    "question": "What is the importance of 'network proxying (T1090-Proxy)' techniques related to the image?"
+                }
+            ]
+        }
+    ]
+}

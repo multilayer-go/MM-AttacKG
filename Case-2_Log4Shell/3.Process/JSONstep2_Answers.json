@@ -1,0 +1,1004 @@
+{
+    "pictures": [
+        {
+            "name": "Figure 1 Flow of events from Log4Shell exploitation to execution of the final payload.PNG",
+            "pic_type": "Attack Flow or Intelligence Structure",
+            "questionsANDanswers": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is the exploitation process of a vulnerable VMware Horizon server using Log4Shell to download and execute malicious files."
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article."
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image are to illustrate the stages of a cyberattack involving a vulnerable VMware Horizon server and the execution of malicious files."
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve exploiting a vulnerable VMware Horizon server through Log4Shell, executing encoded commands, and downloading various malicious files to create persistent services."
+                },
+                {
+                    "question": "What is the sequential relationship of the processes in the image?",
+                    "answer": "The sequential relationship of the processes in the image is 1.bat executing first, followed by syn.exe loading, and then 1.dll copying itself to newdev.dll, which creates a service for svchost.exe."
+                },
+                {
+                    "question": "What are the possible targets of attack in the image?",
+                    "answer": "The possible targets of attack are the Vulnerable VMware Horizon server and svchost.exe."
+                },
+                {
+                    "question": "What is the role of 'Log4Shell' in the context of this image?",
+                    "answer": "The role of 'Log4Shell' is to exploit the vulnerable VMware Horizon server."
+                },
+                {
+                    "question": "What are the security implications of the processes depicted in the image?",
+                    "answer": "The security implications include potential unauthorized access and execution of malicious code on the system."
+                },
+                {
+                    "question": "What is the impact of executing '1.bat' in the image?",
+                    "answer": "The impact of executing '1.bat' is to download and execute further malicious files."
+                },
+                {
+                    "question": "What is the purpose of 'syn.exe' and '1.dll' in the image?",
+                    "answer": "The purpose of 'syn.exe' and '1.dll' in the image is to execute and load malicious code."
+                },
+                {
+                    "question": "What are the potential vulnerabilities exploited in the process flow of the image?",
+                    "answer": "The potential vulnerabilities exploited are Log4Shell and a vulnerable VMware Horizon server."
+                },
+                {
+                    "question": "What is the significance of creating a 'svchost.exe' service in the image?",
+                    "answer": "The significance of creating a 'svchost.exe' service in the image is to establish persistent access."
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?",
+                    "answer": "The role of 'TrailBlazer' infrastructure in the context of this image is not specified."
+                },
+                {
+                    "question": "What role does the 'Milestone' backdoor play in the process depicted in the image?",
+                    "answer": "The 'Milestone' backdoor plays the role of creating a persistent service by copying itself and executing through svchost.exe."
+                },
+                {
+                    "question": "How does 'Fire Chili' rootkit interact with the processes shown in the image?",
+                    "answer": "The 'Fire Chili' rootkit interacts by creating a service with svchost.exe."
+                },
+                {
+                    "question": "What link can be established between Deep Panda and the tools shown in the image?",
+                    "answer": "The link established is that Deep Panda utilizes the tools shown for executing malicious activities."
+                },
+                {
+                    "question": "What function does FortiEDR serve in mitigating the threats presented in the image?",
+                    "answer": "FortiEDR serves to detect and respond to the threats presented in the image."
+                }
+            ]
+        },
+        {
+            "name": "Figure 10 Unsetting the PROCESS_TERMINATE bit of DesiredAccess.PNG",
+            "pic_type": "Malware Code",
+            "questionsANDanswers": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is assembly code related to resource acquisition and critical region management."
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article."
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image are for analyzing malware behavior and understanding exploit techniques."
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve exploiting resource acquisition and critical region manipulation."
+                },
+                {
+                    "question": "What is the possible function of the zCode in the image?",
+                    "answer": "The possible function is to check if a path is protected and manage resource acquisition and release."
+                },
+                {
+                    "question": "What programming language is used in the image?",
+                    "answer": "The programming language used is Assembly."
+                },
+                {
+                    "question": "What is the significance of the 'KeEnterCriticalRegion' function in the image?",
+                    "answer": "The significance of the 'KeEnterCriticalRegion' function in the image is to enter a critical region where interrupts are disabled to prevent race conditions."
+                },
+                {
+                    "question": "What process or operation is being depicted in the image?",
+                    "answer": "The process depicted is resource acquisition and release with path protection check."
+                },
+                {
+                    "question": "What is the role of 'OB_PRE_OPERATION_PARAMETERS.CreateHandleInformation.DesiredAccess' in the image?",
+                    "answer": "The role of 'OB_PRE_OPERATION_PARAMETERS.CreateHandleInformation.DesiredAccess' in the image is to zero out the PROCESS_TERMINATE bit."
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?",
+                    "answer": "The role of 'TrailBlazer' infrastructure in the context of this image is not specified."
+                },
+                {
+                    "question": "What is the connection between the image content and Deep Panda's tactics?",
+                    "answer": "The connection is that the image content shows code related to process protection and manipulation, tactics commonly associated with the APT group known as Deep Panda."
+                },
+                {
+                    "question": "How does the image illustrate the exploitation of public-facing applications?",
+                    "answer": "The image illustrates the exploitation of public-facing applications by showing code that manipulates resource acquisition and process management to potentially bypass protection mechanisms."
+                },
+                {
+                    "question": "What tools or techniques in the image can be attributed to Fire Chili?",
+                    "answer": "The tools or techniques attributed to Fire Chili include the use of critical region management and resource acquisition functions."
+                }
+            ]
+        },
+        {
+            "name": "Figure 11 Removing a process from ActiveProcessLinks.PNG",
+            "pic_type": "Attack Flow or Intelligence Structure",
+            "questionsANDanswers": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is a diagram showing the removal of a process between Flink and Blink components."
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article."
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image are to illustrate the process of removing a step in a Flink and Blink workflow."
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve exploiting the communication between Flink and Blink processes."
+                },
+                {
+                    "question": "What is the sequential relationship of the processes in the image?",
+                    "answer": "The sequential relationship shows Flink and Blink processes occurring in parallel, with a removed process bypassed between them."
+                },
+                {
+                    "question": "What are the possible targets of attack in the image?",
+                    "answer": "The possible targets of attack are the Flink and Blink processes."
+                },
+                {
+                    "question": "What is the significance of the 'Removed process' label in the image?",
+                    "answer": "The significance of the 'Removed process' label is to indicate a process that has been eliminated from the sequence."
+                },
+                {
+                    "question": "What does the interaction between 'Flink' and 'Blink' represent in the image?",
+                    "answer": "The interaction between 'Flink' and 'Blink' represents a process flow where 'Flink' and 'Blink' are connected in sequence with a removed process indicated by the dashed lines."
+                },
+                {
+                    "question": "What is the role of each arrow type in the image?",
+                    "answer": "The role of each arrow type is to indicate the direction of data flow, with solid arrows showing the current path and dashed arrows showing the bypassed path due to the removed process."
+                },
+                {
+                    "question": "What are the visual differences between the boxes labeled 'Flink' and 'Blink' in the image?",
+                    "answer": "The visual difference is that the 'Flink' section is depicted in a lighter shade compared to the 'Blink' section."
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?",
+                    "answer": "The role of 'TrailBlazer' infrastructure is not specified in this image."
+                },
+                {
+                    "question": "How is the 'Milestone backdoor' depicted in the image?",
+                    "answer": "The 'Milestone backdoor' is depicted as a removed process bypassing the Flink and Blink stages."
+                },
+                {
+                    "question": "Where is the 'Fire Chili rootkit' represented in the image?",
+                    "answer": "The 'Fire Chili rootkit' is not represented in the image."
+                },
+                {
+                    "question": "What defensive measures against Deep Panda are illustrated in the image?",
+                    "answer": "The defensive measures against Deep Panda illustrated in the image are the removal of processes and the redirection of Flink and Blink operations."
+                },
+                {
+                    "question": "What connection exists between 'Deep Panda' and 'Winnti' in the image?",
+                    "answer": "There is no connection between 'Deep Panda' and 'Winnti' in the image."
+                },
+                {
+                    "question": "How does 'FortiEDR' feature in the image?",
+                    "answer": "The image does not feature 'FortiEDR'."
+                },
+                {
+                    "question": "What specific cyber threat actor tactics are visualized in the image?",
+                    "answer": "The specific cyber threat actor tactics visualized in the image are related to process removal and redirection."
+                },
+                {
+                    "question": "In what way is 'Defense Evasion' shown in the image?",
+                    "answer": "The 'Defense Evasion' is shown by the removal of a process to bypass detection."
+                }
+            ]
+        },
+        {
+            "name": "Figure 12 FortiEDR blocking communication for download & execute after Log4Shell exploitation.PNG",
+            "pic_type": "Attack Flow or Intelligence Structure",
+            "questionsANDanswers": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is a process sequence involving the creation and connection of a suspicious application leading to an external IP address."
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article."
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image are to illustrate the sequence of malicious activities in a cyber threat intelligence context."
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve creating a process with ws_TomcatService.exe, using PowerShell for suspicious activities, and attempting to connect to a potentially malicious IP address."
+                },
+                {
+                    "question": "What is the sequential relationship of the processes in the image?",
+                    "answer": "The sequential relationship of the processes is ws_TomcatService.exe creating powershell.exe, which then connects to a suspicious application."
+                },
+                {
+                    "question": "What are the possible targets of attack in the image?",
+                    "answer": "The possible targets of attack are ws_TomcatService.exe and powershell.exe."
+                },
+                {
+                    "question": "What is the significance of the 'Block ENSILO' event in the image?",
+                    "answer": "The significance of the 'Block ENSILO' event is to prevent a connection to a suspicious application."
+                },
+                {
+                    "question": "What is the destination of the final connection shown in the image?",
+                    "answer": "The destination of the final connection is 104.223.34.108."
+                },
+                {
+                    "question": "What processes are involved in the image?",
+                    "answer": "The processes involved are ws_TomcatService.exe and powershell.exe."
+                },
+                {
+                    "question": "What is the potential risk level of the connection to 104.223.34.198 as shown in the image?",
+                    "answer": "The potential risk level of the connection to 104.223.34.198 is high."
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?",
+                    "answer": "The role of 'TrailBlazer' infrastructure is not specified in the context of this image."
+                },
+                {
+                    "question": "What are the specific steps taken by 'Deep Panda' in this image?",
+                    "answer": "The specific steps taken by 'Deep Panda' are creating a process with ws_TomcatService.exe, creating another process with powershell.exe, and connecting to a suspicious application."
+                },
+                {
+                    "question": "How is the Milestone backdoor depicted in the image?",
+                    "answer": "The Milestone backdoor is depicted as a process creating a suspicious application and connecting to a remote IP address."
+                },
+                {
+                    "question": "What is the significance of the connection to powershell.exe in the image?",
+                    "answer": "The significance of the connection to powershell.exe in the image is to indicate a process that may be part of a suspicious activity."
+                },
+                {
+                    "question": "How does FortiEDR provide protection as shown in the image?",
+                    "answer": "FortiEDR provides protection by blocking the connection to the suspicious application as shown in the image."
+                }
+            ]
+        },
+        {
+            "name": "Figure 13 FortiEDR blocking the backdoor from communicating with the C2 post infection.PNG",
+            "pic_type": "Attack Flow or Intelligence Structure",
+            "questionsANDanswers": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is a sequence of process creations and a connection attempt."
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article."
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image are for analyzing cyber threat intelligence and understanding malware behavior."
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve creating services and connecting to a suspicious file detected."
+                },
+                {
+                    "question": "What is the sequential relationship of the processes in the image?",
+                    "answer": "The sequential relationship of the processes in the image is that each process, labeled from 3 to 7, follows in a linear order with dependencies on the previous process."
+                },
+                {
+                    "question": "What are the possible targets of attack in the image?",
+                    "answer": "The possible targets of attack are svchost.exe and 192.168.30.51."
+                },
+                {
+                    "question": "What processes are represented in the image?",
+                    "answer": "The processes represented in the image are svchost.exe, powershell.exe, and TomcatService.exe."
+                },
+                {
+                    "question": "What software tools are depicted in the image?",
+                    "answer": "The software tools depicted in the image are svchost.exe, powershell.exe, and TomcatService.exe."
+                },
+                {
+                    "question": "What is the significance of the connections made in the image?",
+                    "answer": "The significance of the connections is to illustrate the sequence of malicious activities detected."
+                },
+                {
+                    "question": "What security measures are illustrated in the image?",
+                    "answer": "The security measures illustrated in the image are related to process creation and network connection monitoring."
+                },
+                {
+                    "question": "What is the impact of the block indicated in the image?",
+                    "answer": "The impact of the block indicated in the image is a suspicious file detected."
+                },
+                {
+                    "question": "What could be the potential vulnerabilities exposed by the image?",
+                    "answer": "The potential vulnerabilities exposed by the image include malicious file creation and suspicious network connections."
+                },
+                {
+                    "question": "What is the role of the 'wj_TomcatService.exe' process in the image?",
+                    "answer": "The role of the 'wj_TomcatService.exe' process is to initiate a creation event."
+                },
+                {
+                    "question": "What digital certificate activities are illustrated in the image?",
+                    "answer": "The digital certificate activities illustrated in the image are related to the creation and connection processes."
+                },
+                {
+                    "question": "How does 'FortiEDR' contribute to security as depicted in the image?",
+                    "answer": "FortiEDR contributes to security by detecting suspicious file creation activities and blocking malicious processes."
+                }
+            ]
+        },
+        {
+            "name": "Figure 2 The decoded PowerShell command.PNG",
+            "pic_type": "Malware Code",
+            "questionsANDanswers": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is a PowerShell command using IEX to download and execute a script from a specified URL."
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article."
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses are for analyzing malware behavior or identifying malicious activities."
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve the use of a WebClient to download potentially malicious content from an external server."
+                },
+                {
+                    "question": "What is the possible function of the zCode in the image?",
+                    "answer": "The possible function of the zCode in the image is to download a text file from a specified URL."
+                },
+                {
+                    "question": "What is the significance of the URL in the image?",
+                    "answer": "The significance of the URL is it shows a command to download a potentially malicious file."
+                },
+                {
+                    "question": "What programming language is illustrated in the image?",
+                    "answer": "The programming language illustrated in the image is PowerShell."
+                },
+                {
+                    "question": "What is the purpose of the command shown in the image?",
+                    "answer": "The purpose of the command is to download a text file from a specified URL."
+                },
+                {
+                    "question": "Who might be the target audience of the image?",
+                    "answer": "The target audience might be cybersecurity professionals."
+                },
+                {
+                    "question": "What security implications are suggested by the components in the image?",
+                    "answer": "The security implications suggested are potential malicious script execution and unauthorized data retrieval."
+                },
+                {
+                    "question": "What are the possible outcomes of executing the code displayed in the image?",
+                    "answer": "The possible outcomes include downloading and executing potentially malicious content from an external server."
+                },
+                {
+                    "question": "What tools or software might be used to analyze the code in the image?",
+                    "answer": "The tools or software might be used to analyze the code in the image include static code analyzers, malware analysis platforms, and sandbox environments."
+                },
+                {
+                    "question": "Where is the potential vulnerability located within the image?",
+                    "answer": "The potential vulnerability is located at the URL 'http://104.223.34.198/p.txt'."
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?",
+                    "answer": "The role of 'TrailBlazer' infrastructure is not specified in the context of this image."
+                },
+                {
+                    "question": "How does the Milestone backdoor manifest in the image?",
+                    "answer": "The Milestone backdoor manifests by using IEX to execute a downloaded script from a specified URL."
+                },
+                {
+                    "question": "In what ways does the image suggest defense evasion techniques are employed?",
+                    "answer": "The image suggests defense evasion techniques by using an obfuscated URL to download content."
+                },
+                {
+                    "question": "How does FortiEDR relate to the components shown in the image?",
+                    "answer": "FortiEDR relates to the components shown in the image by potentially identifying the use of a WebClient to download content from an external server as a suspicious activity."
+                },
+                {
+                    "question": "What associations with threat actor groups like Deep Panda can be inferred from the image?",
+                    "answer": "The association with threat actor groups like Deep Panda can be inferred from the use of a malicious URL for downloading potentially harmful content."
+                },
+                {
+                    "question": "What methods from the image signify data exfiltration?",
+                    "answer": "The method signifying data exfiltration is the use of IEX to execute a command that downloads and runs a script from an external server."
+                },
+                {
+                    "question": "How does the image illustrate the use of stolen digital certificates?",
+                    "answer": "The image illustrates the use of stolen digital certificates by showing a PowerShell command using `IEX` to execute downloaded content from a potentially malicious URL."
+                },
+                {
+                    "question": "How might the image indicate system discovery actions?",
+                    "answer": "The image indicates system discovery actions by showing a script using WebClient to download a file from a specified URL."
+                },
+                {
+                    "question": "What evidence of rootkit techniques can be found in the image?",
+                    "answer": "The evidence of rootkit techniques is the use of a WebClient to download a file from an external server."
+                },
+                {
+                    "question": "What connections between Winnti and Deep Panda are reflected in the image?",
+                    "answer": "The connection reflected in the image is the use of a similar command-line code for downloading a file, which is associated with both Winnti and Deep Panda."
+                }
+            ]
+        },
+        {
+            "name": "Figure 3 Content of the p.txt PowerShell script downloaded from the server.PNG",
+            "pic_type": "Malware Code",
+            "questionsANDanswers": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is a PowerShell script downloading malicious files."
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article."
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image are to illustrate malware download activities and command execution in a cyber threat intelligence context."
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve downloading malicious files using a WebClient object with a伪装的User-Agent header."
+                },
+                {
+                    "question": "What is the possible function of the zCode in the image?",
+                    "answer": "The possible function of the zCode in the image is to download and execute malicious files."
+                },
+                {
+                    "question": "What programming language is used in the image?",
+                    "answer": "The programming language used in the image is PowerShell."
+                },
+                {
+                    "question": "What is the significance of the 'User-Agent' in the image?",
+                    "answer": "The significance of the 'User-Agent' in the image is to mimic a specific browser for the server."
+                },
+                {
+                    "question": "What could be the potential effects of executing the code in the image?",
+                    "answer": "The potential effects could be the downloading of malicious files and the execution of a potentially harmful executable."
+                },
+                {
+                    "question": "How does the image demonstrate network communication?",
+                    "answer": "The image demonstrates network communication by showing PowerShell commands that use a WebClient object to download files from a specified URL."
+                },
+                {
+                    "question": "What is the purpose of creating multiple WebClient objects in the image?",
+                    "answer": "The purpose of creating multiple WebClient objects is to download different files from a specified URL."
+                },
+                {
+                    "question": "What files are being downloaded in the image?",
+                    "answer": "The files being downloaded are '1.bat', '1.dll', and 'syn.exe'."
+                },
+                {
+                    "question": "What is the IP address mentioned in the image used for?",
+                    "answer": "The IP address mentioned in the image is used for downloading malicious files."
+                },
+                {
+                    "question": "What security risks are associated with the commands shown in the image?",
+                    "answer": "The security risks are associated with downloading and executing potentially malicious files from an external source."
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?",
+                    "answer": "The role of 'TrailBlazer' infrastructure in the context of this image is to host malicious files for download."
+                },
+                {
+                    "question": "How does the image reflect tactics used by Deep Panda?",
+                    "answer": "The image reflects tactics used by Deep Panda by showcasing a script that downloads malicious files from a specified URL, a common technique associated with this threat actor."
+                },
+                {
+                    "question": "What similarities does the code in the image have with Milestone backdoor techniques?",
+                    "answer": "The similarities include the use of downloading files from a remote server and executing them, a technique associated with Milestone backdoor."
+                },
+                {
+                    "question": "How does the image illustrate the use of malicious DLLs for penetration?",
+                    "answer": "The image illustrates the use of malicious DLLs for penetration by downloading a DLL file from a specified URL using a WebClient object."
+                },
+                {
+                    "question": "What could be the implications of the code for privilege escalation in the image?",
+                    "answer": "The implications could be for malware execution and further system compromise."
+                },
+                {
+                    "question": "How does the image relate to FortiEDR's mitigation strategies?",
+                    "answer": "The image relates to FortiEDR's mitigation strategies by demonstrating malicious file downloads that can be detected and blocked."
+                }
+            ]
+        },
+        {
+            "name": "Figure 4 Content of 1.bat script downloaded from the server.PNG",
+            "pic_type": "Malware Code",
+            "questionsANDanswers": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is a set of commands to execute a malicious file and then delete evidence."
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article."
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image are to illustrate commands used in malware execution and cleanup."
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve executing a malicious file, deleting evidence, and using batch scripts."
+                },
+                {
+                    "question": "What is the possible function of the zCode in the image?",
+                    "answer": "The possible function of the zCode in the image is to delete specific files."
+                },
+                {
+                    "question": "What is the sequence of operations in the image?",
+                    "answer": "The sequence of operations is running syn.exe with 1.dll, then deleting syn.exe, 1.dll, and 1.bat."
+                },
+                {
+                    "question": "What is the potential impact of executing the commands in the image?",
+                    "answer": "The potential impact is the deletion of specified files and execution of a potentially malicious DLL."
+                },
+                {
+                    "question": "What are the file types mentioned in the image?",
+                    "answer": "The file types mentioned are .exe, .dll, and .bat."
+                },
+                {
+                    "question": "What is the significance of using '/f /q' in the image commands?",
+                    "answer": "The significance of using '/f /q' in the image commands is to force the deletion without prompting."
+                },
+                {
+                    "question": "What is the programming or scripting language of the code in the image?",
+                    "answer": "The programming or scripting language is batch."
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?",
+                    "answer": "The role of 'TrailBlazer' infrastructure is not specified in the context of this image."
+                },
+                {
+                    "question": "What indications are there in the image that relate to the 'Milestone' backdoor?",
+                    "answer": "The indications are the commands to execute and delete files, which relate to the 'Milestone' backdoor."
+                },
+                {
+                    "question": "How might 'Fire Chili' be represented or implied in the operations shown in the image?",
+                    "answer": "The operations shown in the image do not represent or imply 'Fire Chili'."
+                },
+                {
+                    "question": "What evidence in the image suggests the use of stolen digital certificates?",
+                    "answer": "The evidence suggesting the use of stolen digital certificates is the presence of \"syn.exe\" and \"1.dll\" which are typically used in malware that exploits stolen digital certificates."
+                },
+                {
+                    "question": "How does the image illustrate techniques for defense evasion?",
+                    "answer": "The image illustrates techniques for defense evasion by showing commands that attempt to remove evidence of malicious activity."
+                },
+                {
+                    "question": "What elements of the image demonstrate system discovery or data exfiltration methods?",
+                    "answer": "The elements demonstrating system discovery or data exfiltration methods are the commands to delete files with specific names, which could be part of a post-exploitation cleanup to remove evidence."
+                },
+                {
+                    "question": "What potential mitigation strategies could counteract the actions depicted in the image?",
+                    "answer": "Potential mitigation strategies could include disabling script execution, implementing strict file deletion policies, and using application control policies to restrict the execution of unauthorized programs."
+                }
+            ]
+        },
+        {
+            "name": "Figure 5 “msupdate2” service registered by Milestone.PNG",
+            "pic_type": "Data Table",
+            "questionsANDanswers": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is the registry details for the Microsoft Update service."
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article."
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image are to configure or troubleshoot the Windows Update service settings on a system."
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve modifying Windows Update settings and leveraging system services for malicious purposes."
+                },
+                {
+                    "question": "What are the fields highlighted in the image?",
+                    "answer": "The fields highlighted in the image are Name, Type, and Data."
+                },
+                {
+                    "question": "What are the possible informations relevant to malicious activity in the image?",
+                    "answer": "The possible informations relevant to malicious activity in the image are the executable path and the service configuration details."
+                },
+                {
+                    "question": "What is the significance of the 'DisplayName' in the image?",
+                    "answer": "The significance of the 'DisplayName' in the image is to identify the service as \"Microsoft Update.\""
+                },
+                {
+                    "question": "What is the implication of the 'ImagePath' in the image?",
+                    "answer": "The implication of the 'ImagePath' is that it specifies the location of the executable file for the Microsoft Update service."
+                },
+                {
+                    "question": "What is the relevance of the 'Start' field value in the image?",
+                    "answer": "The relevance of the 'Start' field value is that it indicates the service starts automatically when the system boots."
+                },
+                {
+                    "question": "What does the 'Type' field value indicate about the registry entry in the image?",
+                    "answer": "The 'Type' field value indicates that the registry entry is a service."
+                },
+                {
+                    "question": "What is the significance of the 'WOW64' field in the context of the image?",
+                    "answer": "The significance of the 'WOW64' field is to indicate that the service is configured for 32-bit applications on a 64-bit system."
+                },
+                {
+                    "question": "What role does 'Deep Panda' play in the context of this image?",
+                    "answer": "The role of 'Deep Panda' is not mentioned in the context of this image."
+                },
+                {
+                    "question": "How is 'Milestone backdoor' depicted or related in the image?",
+                    "answer": "The image does not depict or relate to 'Milestone backdoor.'"
+                },
+                {
+                    "question": "What is the significance of 'Fire Chili rootkit' as shown in this image?",
+                    "answer": "The significance of 'Fire Chili rootkit' is not shown in this image."
+                },
+                {
+                    "question": "What association with 'Winnti' is reflected in the image?",
+                    "answer": "The association with 'Winnti' reflected in the image is not specified."
+                },
+                {
+                    "question": "What mitigation strategies involving 'FortiEDR' can be observed or inferred from the image?",
+                    "answer": "No mitigation strategies involving 'FortiEDR' can be observed or inferred from the image."
+                }
+            ]
+        },
+        {
+            "name": "Figure 6 Exports of the malicious Milestone.PNG",
+            "pic_type": "Application Tool Screenshot",
+            "questionsANDanswers": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is a list of entry points with their addresses and ordinals."
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article."
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses are for analyzing entry points in a DLL for cybersecurity purposes."
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve DLL hijacking and entry point manipulation."
+                },
+                {
+                    "question": "What is the significance of the highlighted entry point in the image?",
+                    "answer": "The significance of the highlighted entry point is that it is the main entry point."
+                },
+                {
+                    "question": "What programming language or tool might have been used to generate the image?",
+                    "answer": "The tool used might have been IDA Pro."
+                },
+                {
+                    "question": "What are the possible implications of the ordinal numbers in the image?",
+                    "answer": "The possible implications are that the ordinal numbers may indicate specific functions or entry points within a DLL for execution."
+                },
+                {
+                    "question": "What steps could be taken to investigate the context of the entries shown in the image?",
+                    "answer": "The steps could include analyzing the DLL entry points and their addresses."
+                },
+                {
+                    "question": "What information does the address column convey in the image?",
+                    "answer": "The address column conveys the memory addresses of the entry points."
+                },
+                {
+                    "question": "How could the image be used in reverse engineering contexts?",
+                    "answer": "The image could be used in reverse engineering contexts by analyzing the entry points and their addresses to understand the sequence of execution."
+                },
+                {
+                    "question": "What is the relationship between the 'DllEntryPoint' and the threats discussed in the knowledge graph?",
+                    "answer": "The relationship is that 'DllEntryPoint' is the main entry point which could be exploited by threats."
+                },
+                {
+                    "question": "What might the role of 'Malicious DLLs' as mentioned in the knowledge graph be reflected in the image?",
+                    "answer": "The role of 'Malicious DLLs' might be reflected in the image as an entry point for malicious code execution."
+                },
+                {
+                    "question": "How does the image demonstrate the concept of exploiting public-facing applications as described in the knowledge graph?",
+                    "answer": "The image demonstrates the concept by showing entry points that could be targeted for exploitation in public-facing applications."
+                }
+            ]
+        },
+        {
+            "name": "Figure 7 Example of a decrypted configuration.PNG",
+            "pic_type": "File Paths and Names",
+            "questionsANDanswers": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is a Microsoft service of ours."
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article."
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image are for identifying potential cyber threats related to specific services and domains."
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve targeting Microsoft services and web service vulnerabilities."
+                },
+                {
+                    "question": "What is the significance of the domain 'svn1.smilegatel.com' in the image?",
+                    "answer": "The significance of the domain 'svn1.smilegatel.com' is it is listed as a Microsoft service."
+                },
+                {
+                    "question": "What is the role of the 'WebService' in the context of the image?",
+                    "answer": "The role of the 'WebService' is a Microsoft service of ours."
+                },
+                {
+                    "question": "What is the relevance of 'Microsoft service of ours' in the image?",
+                    "answer": "The relevance of 'Microsoft service of ours' in the image is to indicate a specific service operated by the entity referenced."
+                },
+                {
+                    "question": "What might be the security implications of the services mentioned in the image?",
+                    "answer": "The security implications might include potential vulnerabilities in Microsoft services and web service configurations."
+                },
+                {
+                    "question": "What could be the intended communication between these services in the image?",
+                    "answer": "The intended communication could be between the Microsoft service of ours and the WebService at svn1.smilegate.com:443."
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?",
+                    "answer": "The role of 'TrailBlazer' infrastructure is not specified in the context of this image."
+                },
+                {
+                    "question": "How does the Milestone backdoor contribute to the narrative illustrated in the image?",
+                    "answer": "The Milestone backdoor contributes to the narrative by targeting Microsoft services as indicated."
+                },
+                {
+                    "question": "What might be the representation of the Fire Chili rootkit in the image?",
+                    "answer": "The representation of the Fire Chili rootkit in the image is not specified."
+                },
+                {
+                    "question": "What could depict the defensive efforts using FortiEDR in the context of the image?",
+                    "answer": "The defensive efforts using FortiEDR could depict the monitoring and blocking of traffic to suspicious domains like svn1.smilegate.com:443."
+                },
+                {
+                    "question": "Where is the reference to the cyber threat actor group Deep Panda in the image?",
+                    "answer": "The reference to the cyber threat actor group Deep Panda is not in the image."
+                },
+                {
+                    "question": "How might the strategies of the Winnti group be represented in the image?",
+                    "answer": "The strategies of the Winnti group might be represented by the targeting of Microsoft services and specific web service ports as shown."
+                }
+            ]
+        },
+        {
+            "name": "Figure 8 Digital signature of a crtsys.sys driver.PNG",
+            "pic_type": "Application Tool Screenshot",
+            "questionsANDanswers": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is the digital signature and certificate details for Frostburn Studios."
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a digital signature verification process for software from Frostburn Studios."
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses are verifying the digital signature and certificate details for software from Frostburn Studios."
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve code signing forgery or compromise."
+                },
+                {
+                    "question": "What is the intended purpose of the certificate shown in the image?",
+                    "answer": "The intended purpose of the certificate is to ensure software came from the software publisher and protect software from alteration after publication."
+                },
+                {
+                    "question": "What is the validity period of the certificate in the image?",
+                    "answer": "The validity period of the certificate is from 4/24/2015 to 4/24/2018."
+                },
+                {
+                    "question": "What specific software is likely intended to be signed using the certificate in the image?",
+                    "answer": "The specific software likely intended to be signed using the certificate in the image is from Frostburn Studios."
+                },
+                {
+                    "question": "Who is the issuer of the certificate presented in the image?",
+                    "answer": "The issuer of the certificate is COMODO RSA Code Signing CA."
+                },
+                {
+                    "question": "What is the significance of the digital signature shown in the image?",
+                    "answer": "The significance of the digital signature shown in the image is to ensure the software came from Frostburn Studios and to protect it from alteration after publication."
+                },
+                {
+                    "question": "What are the details of the countersignature in the image?",
+                    "answer": "The details of the countersignature in the image are the name of the signer as COMODO SHA-2, with a timestamp on Wednesday, August 2."
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?",
+                    "answer": "The role of 'TrailBlazer' infrastructure is not mentioned in this image."
+                },
+                {
+                    "question": "How might Deep Panda's use of stolen digital certificates be represented in this image?",
+                    "answer": "The representation might be through the digital signature and certificate issued to Frostburn Studios, potentially indicating unauthorized use."
+                },
+                {
+                    "question": "What tools mentioned in the knowledge graph are relevant to the security aspects highlighted in the image?",
+                    "answer": "The tools relevant to the security aspects highlighted in the image are digital signature verification and certificate validation."
+                },
+                {
+                    "question": "What indications are there in the image that could be related to defense evasion tactics by Deep Panda?",
+                    "answer": "The indications related to defense evasion tactics by Deep Panda include the use of a valid digital signature from Frostburn Studios issued by COMODO RSA Code Signing CA, potentially to bypass security measures."
+                },
+                {
+                    "question": "How does the image suggest potential detection or mitigation efforts by tools like FortiEDR against threats similar to Deep Panda?",
+                    "answer": "The image suggests potential detection or mitigation efforts by tools like FortiEDR against threats similar to Deep Panda through the verification of digital signatures and certificate information."
+                }
+            ]
+        },
+        {
+            "name": "Figure 9 Detection rates of the rootkit samples from VirusTotal-1.PNG",
+            "pic_type": "File Paths and Names",
+            "questionsANDanswers": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is a security scan result indicating the file is not flagged as malicious by any vendors or sandboxes."
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence platform."
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses are for verifying file safety and checking community scores."
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve the use of a file with a specific hash and attributes like native, overlay, peexe, and signed that have not been flagged as malicious by security vendors or sandboxes."
+                },
+                {
+                    "question": "What is the significance of the hash value shown in the image?",
+                    "answer": "The significance of the hash value shown in the image is to uniquely identify the file for security analysis."
+                },
+                {
+                    "question": "What do the tags 'native', 'overlay', 'peexe', and 'signed' imply in the context of the image?",
+                    "answer": "The tags 'native', 'overlay', 'peexe', and 'signed' imply file attributes or characteristics identified in the file analysis."
+                },
+                {
+                    "question": "What is the meaning of a 0/72 security vendor detection score in the image?",
+                    "answer": "The meaning of a 0/72 security vendor detection score is that no security vendors flagged this file as malicious."
+                },
+                {
+                    "question": "What is the significance of the 'Community Score' shown in the image?",
+                    "answer": "The significance of the 'Community Score' shown in the image is to indicate the collective assessment of the file's risk level by the community."
+                },
+                {
+                    "question": "What is the purpose of displaying the message 'No security vendors and no sandboxes flagged this file as malicious' in the image?",
+                    "answer": "The purpose of displaying the message is to indicate the file's security status."
+                },
+                {
+                    "question": "What is represented by the circular green icon shown in the image?",
+                    "answer": "The circular green icon represents the community score."
+                },
+                {
+                    "question": "What does the question mark icon next to the Community Score indicate in the image?",
+                    "answer": "The question mark icon next to the Community Score indicates additional information or help regarding the community score."
+                },
+                {
+                    "question": "How does the hash value correlate to Deep Panda's use of stolen digital certificates?",
+                    "answer": "The hash value correlates to Deep Panda's use of stolen digital certificates by indicating the file is signed."
+                },
+                {
+                    "question": "What might the presence of tags such as 'signed' suggest about Deep Panda's use of legitimate software for defense evasion?",
+                    "answer": "The presence of tags such as 'signed' suggests Deep Panda's use of legitimate software for defense evasion."
+                },
+                {
+                    "question": "How may FortiEDR or other security tools interpret or respond to the elements highlighted in the image?",
+                    "answer": "FortiEDR or other security tools may interpret the elements highlighted in the image as benign since no security vendors or sandboxes flagged this file as malicious."
+                },
+                {
+                    "question": "What information can be derived from the file's lack of detection by security vendors in terms of Winnti group's association with Deep Panda?",
+                    "answer": "The lack of detection by security vendors suggests no immediate association with the Winnti group's activities linked to Deep Panda."
+                }
+            ]
+        },
+        {
+            "name": "Figure 9 Detection rates of the rootkit samples from VirusTotal-2.PNG",
+            "pic_type": "File Paths and Names",
+            "questionsANDanswers": [
+                {
+                    "question": "What is the main content of the image?",
+                    "answer": "The main content is a security notification indicating one vendor flagged a file as malicious with a specific hash and options for further analysis."
+                },
+                {
+                    "question": "What is the possible source of the image?",
+                    "answer": "The possible source is a cyber threat intelligence article."
+                },
+                {
+                    "question": "What are the possible uses of the image?",
+                    "answer": "The possible uses of the image are for analyzing file security and malware detection."
+                },
+                {
+                    "question": "What are the possible attack techniques involved in the image?",
+                    "answer": "The possible attack techniques involve malware flagged by security vendors."
+                },
+                {
+                    "question": "What file name is associated with the image?",
+                    "answer": "The file name associated with the image is H:Templ_35AC885EDA3C1D3A16777D62C3CC5138_."
+                },
+                {
+                    "question": "What security score is given in the image?",
+                    "answer": "The security score given is 1 out of 65."
+                },
+                {
+                    "question": "What tags are highlighted in the image?",
+                    "answer": "The highlighted tags are 64bits, assembly, native, overlay, pedll, and signed."
+                },
+                {
+                    "question": "What is the significance of the '1 security vendor' note in the image?",
+                    "answer": "The significance of the '1 security vendor' note is that it indicates one security vendor flagged the file as malicious."
+                },
+                {
+                    "question": "Where is the file path location as depicted in the image?",
+                    "answer": "The file path location is e4e4ff9ee61a1d42dbc1ddf9b87223393c5fbb5d3a3b849b4ea7a1ddf8acd87b as depicted in the image."
+                },
+                {
+                    "question": "What is the community reaction or score in the image?",
+                    "answer": "The community score is 1 out of 65."
+                },
+                {
+                    "question": "What are the implications of the 'Signed' tag in the image?",
+                    "answer": "The implications of the 'Signed' tag in the image suggest the file has a digital signature."
+                },
+                {
+                    "question": "What role does 'TrailBlazer' infrastructure play in the context of this image?",
+                    "answer": "The role of 'TrailBlazer' infrastructure is not mentioned in this image."
+                },
+                {
+                    "question": "How does the Milestone backdoor relate to the content depicted in the image?",
+                    "answer": "The Milestone backdoor relates to the content depicted in the image as a potential malicious file identified by security systems."
+                },
+                {
+                    "question": "What insights can be drawn about the use of stolen digital certificates in this image?",
+                    "answer": "The insights suggest the file uses a stolen digital certificate, indicated by the \"signed\" tag."
+                },
+                {
+                    "question": "Where in the image is FortiEDR's impact or detection capability represented?",
+                    "answer": "The impact or detection capability of FortiEDR is represented by the red dot and the number 1 in the circle on the left side of the image."
+                },
+                {
+                    "question": "How does the use of 'Fire Chili' tools manifest in the image?",
+                    "answer": "The use of 'Fire Chili' tools manifests in the image through the detection by 1 security vendor and no sandboxes flagging the file as malicious."
+                },
+                {
+                    "question": "What evidence of cooperation between Deep Panda and Winnti can be identified in the image?",
+                    "answer": "No evidence of cooperation between Deep Panda and Winnti can be identified in the image."
+                },
+                {
+                    "question": "How is the evasion strategy of Deep Panda illustrated in the image?",
+                    "answer": "The evasion strategy of Deep Panda is illustrated by the low number of security vendors and sandboxes flagging the file as malicious."
+                }
+            ]
+        }
+    ]
+}

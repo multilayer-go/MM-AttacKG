@@ -1,0 +1,46 @@
+[
+{
+    "Image_name": "Decryption function.PNG",
+    "In-context": "The malware uses common encoding techniques to obfuscate strings in the WinMain function to hide its behavior from static analysis tools. The decryption function receives the encrypted strings and decrypts each character with the XOR operation and stores the result in an array that will be returned to the caller function."
+},
+{
+    "Image_name": "Domains hosting Bitter APT malware.PNG",
+    "In-context": "The actor's infrastructure consists of the C2 server (helpdesk[.]autodefragapp[.]com) and several domains that host the adversary's malware. The SSL thumbprints are unique for each domain's certificate. The timeline shows the various domains based on their certificate creation date."
+},
+{
+    "Image_name": "Download URL captured during runtime of the maldoc.PNG",
+    "In-context": "The RTF document exploits CVE-2017-11882 to execute shellcode that connects to a malicious host and downloads the payload. The payload is saved in a folder created by the shellcode and runs as a process on the victim's machine."
+},
+{
+    "Image_name": "Embedded Microsoft Equation object.PNG",
+    "In-context": "The malicious RTF document contains an embedded OLE object with the class name 'Equation 3.0'. When opened with Microsoft Word, it invokes the Equation Editor to execute the equation formula containing shellcode. This shellcode exploits a vulnerability to download and execute the payload on the victim's machine."
+},
+{
+    "Image_name": "Information-gathering function.PNG",
+    "In-context": "The malware's information-gathering function collects the victim's hostname, operating system product name, and username. It then writes this information into a memory buffer to be sent to the command and control server."
+},
+{
+    "Image_name": "Malicious Excel infection chain summary.PNG",
+    "In-context": "The payload runs as a Windows security update service on the victim's machine and establishes communication with the C2 to remotely download and execute files in the victim's environment."
+},
+{
+    "Image_name": "Malicious RTF infection chain summary.PNG",
+    "In-context": "In the case of a malicious Excel spreadsheet, when the victim opens the file, it launches the Microsoft Equation Editor application to execute the embedded equation object and launches the task scheduler to configure two scheduled tasks. One of the scheduled tasks  downloads the trojan 'ZxxZ' into the public user's account space, while the other task runs the 'ZxxZ'.."
+},
+{
+    "Image_name": "The timeline below shows the various domains based on their certificate creation date.PNG",
+    "In-context": "The actor's infrastructure includes a C2 server and several domains hosting malware. The SSL thumbprints for each domain's certificate are unique. This timeline illustrates the domains used in the campaign, showing when their certificates were created."
+},
+{
+    "Image_name": "Ways our customers can detect and block this threat are listed below.PNG",
+    "In-context": "The report concludes with recommendations for organizations to protect against the threat. It lists various Cisco security solutions that can detect and block the malware, including endpoint, email, firewall, and network security products."
+},
+{
+    "Image_name": "WinMain function snippet.PNG",
+    "In-context": "The malware uses encoding techniques in its WinMain function to obfuscate strings and hide behavior from static analysis tools. The decryption function decrypts each character with XOR and stores results in an array."
+},
+{
+    "Image_name": "WinMain() snippet showing antivirus process detection.PNG",
+    "In-context": "The information-gathering function gathers the victim's hostname, operating system product name, and the victim's username and writes them into a memory buffer."
+}
+]

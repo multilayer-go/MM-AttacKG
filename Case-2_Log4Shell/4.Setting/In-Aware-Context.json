@@ -1,0 +1,26 @@
+[
+{
+    "Image_name": "Figure 1 Flow of events from Log4Shell exploitation to execution of the final payload.PNG",
+    "In-context": "While examining customer alerts and telemetry, we noticed several infiltrations into victim networks that were achieved via a Log4Shell exploitation of vulnerable VMware Horizon servers.These attacks spawned a new PowerShell process to download and execute a chain of scripts that ended with the installation of a malicious DLL."
+},
+{
+    "Image_name": "Figure 5 “msupdate2” service registered by Milestone.PNG",
+    "In-context": "The backdoor copies itself to %APPDATA%\newdev.dll and creates a service named msupdate2 by creating the service entry directly in the registry. Several other service names and descriptions have been observed among different samples."
+},
+{
+    "Image_name": "Figure 6 Exports of the malicious Milestone.PNG",
+    "In-context": "While it has the same name as the legitimate Microsoft newdev.dll, it has only two of the real newdev.dll's exports plus an additional ServiceMain export."
+},
+{
+    "Image_name": "Figure 10 Unsetting the PROCESS_TERMINATE bit of DesiredAccess.PNG",
+    "In-context": "The rootkit uses ObRegisterCallbacks to register a preoperation callback routine. When a handle to a process or thread is created or duplicated, the callback checks if the target is in the global process list. If so, it removes the PROCESS_TERMINATE permission from the DesiredAccess parameter to prevent user-mode processes from terminating the malicious processes."
+},
+{
+    "Image_name": "Figure 11 Removing a process from ActiveProcessLinks.PNG",
+    "In-context": "The rootkit hides malicious processes by removing them from the ActiveProcessLinks list of the EPROCESS structure. It uses PsSetCreateProcessNotifyRoutine to monitor new processes and checks if their paths are in the global process list. If a match is found, the process is removed from the list, making it invisible to tools like Task Manager."
+},
+{
+    "Image_name": "Figure 12 FortiEDR blocking communication for download & execute after Log4Shell exploitation.PNG",
+    "In-context": "FortiEDR detects and blocks these threats out-of-the-box without any prior knowledge or special configuration. It does this using its post-execution prevention engine to identify malicious activities:"
+}
+]
