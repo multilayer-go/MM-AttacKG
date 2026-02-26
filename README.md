@@ -220,6 +220,27 @@ The pipeline produces a JSON file for each step. The final output (`JSONstep6_an
 
 ---
 
+## Citation
+
+If you use MM-AttacKG in your research, please cite our paper:
+
+```bibtex
+@article{ZHANG2026115483,
+  title = {MM-AttacKG: A multimodal approach to attack graph construction with large language models},
+  journal = {Knowledge-Based Systems},
+  volume = {338},
+  pages = {115483},
+  year = {2026},
+  issn = {0950-7051},
+  doi = {https://doi.org/10.1016/j.knosys.2026.115483},
+  url = {https://www.sciencedirect.com/science/article/pii/S0950705126002261},
+  author = {Yongheng Zhang and Xinyun Zhao and Yunshan Ma and Haokai Ma and Yingxiao Guan and Guozheng Yang and Yuliang Lu and Xiang Wang},
+  keywords = {Cyber threat intelligence, Attack graph construction, Multimodal large language models}
+}
+```
+
+---
+
 ## License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.

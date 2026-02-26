@@ -220,6 +220,27 @@ MM-AttacKG/
 
 ---
 
+## 引用
+
+如果您在研究中使用了 MM-AttacKG，请引用我们的论文：
+
+```bibtex
+@article{ZHANG2026115483,
+  title = {MM-AttacKG: A multimodal approach to attack graph construction with large language models},
+  journal = {Knowledge-Based Systems},
+  volume = {338},
+  pages = {115483},
+  year = {2026},
+  issn = {0950-7051},
+  doi = {https://doi.org/10.1016/j.knosys.2026.115483},
+  url = {https://www.sciencedirect.com/science/article/pii/S0950705126002261},
+  author = {Yongheng Zhang and Xinyun Zhao and Yunshan Ma and Haokai Ma and Yingxiao Guan and Guozheng Yang and Yuliang Lu and Xiang Wang},
+  keywords = {Cyber threat intelligence, Attack graph construction, Multimodal large language models}
+}
+```
+
+---
+
 ## 许可证
 
 本项目采用 MIT 许可证 — 详见 [LICENSE](LICENSE) 文件。
