@@ -1,0 +1,118 @@
+# MM-AttacKG Configuration File
+# Copy this file to config.yaml and fill in your API keys
+
+# API Configuration
+api:
+  # Alibaba Cloud DashScope (Qwen models)
+  dashscope:
+    api_key: "your-dashscope-api-key-here"
+    base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+    model: "qwen-max"  # Options: qwen-max, qwen-plus, qwen-turbo, qwen-vl-max, qwen-vl-plus
+    
+  # Evaluation model (for Step 4 answer marking)
+  # Defaults to DashScope API. The interface supports third-party LLMs,
+  # but due to service access restrictions, only domestic models are used.
+  eval:
+    api_key: "your-dashscope-api-key-here"  # defaults to dashscope api_key
+    base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"  # Or your custom endpoint
+    model: "qwen2.5-72b-instruct"  # Evaluation model
+
+# Processing Configuration
+processing:
+  max_retries: 5           # Maximum retry attempts for API calls
+  base_delay: 1            # Base delay in seconds for exponential backoff
+  timeout: 120             # Timeout in seconds for each API call
+  temperature: 0           # LLM temperature (0 = deterministic)
+  top_p: 1                 # LLM top_p sampling parameter
+  seed: 42                 # Random seed for reproducibility
+  max_workers: 5           # Maximum number of concurrent threads
+
+# Pipeline Configuration
+pipeline:
+  # Step 1: Question Generation
+  question_generation:
+    enabled: true
+    expand_questions: true
+    
+  # Step 2: Answer Generation
+  answer_generation:
+    enabled: true
+    use_parallel: true
+    
+  # Step 3: Theme Judging
+  theme_judging:
+    enabled: true
+    filter_mode: "both"    # Options: "question_only", "qa_pair", "both"
+    
+  # Step 4: Answer Marking
+  marking:
+    enabled: true
+    quality_levels:
+      - "excellent"
+      - "good"
+      - "poor"
+      
+  # Step 5: Iteration
+  iteration:
+    enabled: true
+    form: 2                # Options: 1 (no suggestions), 2 (with suggestions)
+    max_rounds: 3          # Maximum iteration rounds
+    min_quality: "good"    # Minimum acceptable quality
+    
+  # Step 6: Answer Extraction
+  extraction:
+    enabled: true
+    include_excellent_only: false  # If true, only include 'excellent' answers
+
+# Data Paths
+paths:
+  data_root: "data/cti_reports"
+  resources: "data/resources"
+  output_base: "data/cti_reports"
+  
+# Logging Configuration
+logging:
+  level: "INFO"           # Options: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/mm-attackg.log"
+  console: true
+  
+# Image Categories
+image_categories:
+  - "Attack Flow or Intelligence Structure"
+  - "Malware Code"
+  - "Application Tool Screenshot"
+  - "Data Table"
+  - "Charts and Data Visualization"
+  - "File Paths and Names"
+  - "Descriptive Image and Content Explanation"
+
+# Entity Types (STIX 2.1 compliant)
+entity_types:
+  threat_entities:
+    - "threat-actor"
+    - "campaign"
+    - "intrusion-set"
+  ttp_entities:
+    - "attack-pattern"
+    - "malware"
+    - "tool"
+    - "technique"
+    - "tactic"
+  infrastructure:
+    - "infrastructure"
+    - "domain-name"
+    - "ipv4-addr"
+    - "ipv6-addr"
+    - "url"
+  artifacts:
+    - "file"
+    - "email-address"
+    - "email-message"
+    - "software"
+    - "process"
+  other:
+    - "vulnerability"
+    - "course-of-action"
+    - "identity"
+    - "location"
